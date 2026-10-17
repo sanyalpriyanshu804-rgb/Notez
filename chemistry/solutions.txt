@@ -1,0 +1,248 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SOLUTIONS - HIGH-YIELD EXAM REVISION SHEET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. SOLUTIONS & SOLUBILITY
+• Solution: Homogeneous mixture (uniform composition throughout).
+• Binary Solution: 2 components → Solute (less quantity) + Solvent (more quantity).
+• Physical state of Solution = Physical state of Solvent.
+  - Types: Solid, Liquid, Gaseous solutions.
+
+• Solubility: Maximum amount of solute dissolved in a specified amount of solvent at fixed T & P.
+• Principle: "Like dissolves like" → Polar solute in Polar solvent; Non-polar in Non-polar.
+• Saturated Solution Equilibrium: Solute + Solvent ⇌ Solution
+  - Forward = Dissolution; Backward = Crystallization. At equilibrium: Rate of dissolution = Rate of crystallization.
+
+• Effect of Temperature on Solid in Liquid:    # eqn m heat dal do fir la chatelier
+  - Endothermic (ΔH_sol > 0): T ↑ → Solubility ↑; T ↓ → Solubility ↓.
+  - Exothermic (ΔH_sol < 0): T ↑ → Solubility ↓; T ↓ → Solubility ↑.
+
+• Effect of Pressure on Solid in Liquid:
+  - Solids and liquids are non-compressible → Pressure has NO effect on solubility of solids in liquids.
+
+2. GAS SOLUBILITY IN LIQUID & HENRY'S LAW
+• Dissolution of Gas in Liquid is Exothermic (ΔH < 0): T ↑ → Solubility ↓.
+# global warming aquatic life k liye khatra
+• Effect of Pressure: P ↑ → Volume of gas ↓ → Contact with liquid surface ↑ → Gas solubility ↑.
+
+• ⭐ Henry's Law: Partial pressure of gas (p) ∝ Mole fraction of gas in solution (χ_gas).
+  Formula: p = K_H × χ_gas
+  - p = Partial pressure of gas
+  - χ_gas = Mole fraction of gas in solution
+  - K_H = Henry's constant (depends on nature of gas & temperature).
+
+• K_H Relationships & Conditions:
+  - At constant P: K_H ∝ 1 / χ_gas
+  - K_H ↑ → Solubility in solution ↓
+  - Graph: p vs χ_gas → Straight line through origin (y = mx, slope = K_H).
+
+• Application: Scuba divers going deep → P ↑ → Gas solubility in blood ↑. Returning to surface → P ↓ rapidly → Gas comes out of blood forming bubbles → Causes "Bends" (painful/dangerous condition). # carbonated drinks # anoxia
+
+• Limitations: Gases should not chemically react or associates or dissociate with solvent (HCl ✕)
+
+3. RAOULT'S LAW & VAPOR PRESSURE
+• Vapor Pressure (VP): Pressure exerted by vapors on liquid surface at dynamic equilibrium (Rate of vaporization = Rate of condensation).
+
+• ⭐ Raoult's Law (Volatile liquids A and B):
+For a solution of volatile liquids, the partial vapour pressure of each component of the solution is directly proportional to it's mole fraction present in solution.
+
+  p_A = p°_A × χ_A
+  p_B = p°_B × χ_B
+  - p_A, p_B = Partial VP of A and B
+  - p°_A, p°_B = VP of pure liquids A and B
+  - χ_A, χ_B = Mole fraction of A and B in liquid phase (χ_A + χ_B = 1)
+• ⭐ Total Vapor Pressure:
+  P_total = p_A + p_B = p°_A(χ_A) + p°_B(χ_B)
+  P_total = p°_A + (p°_B - p°_A) × χ_B # iska derivation h
+
+• ⭐ Mole Fraction in Vapor Phase (y_A, y_B):
+  y_A = p_A / P_total
+  y_B = p_B / P_total
+  - Note: χ_A, χ_B are in liquid phase; y_A, y_B are in vapor phase!
+
+• Non-Volatile Solute (Solid B) in Volatile Solvent (A):
+  - Solute B non-volatile → p°_B = 0.
+  - Solute occupies surface area → Volatile solvent molecules on surface ↓ → Rate of vaporization ↓.
+  - VP of Solution (P_S) < VP of Pure Solvent (p°_A).
+  - P_S = p_A = p°_A × χ_A
+
+4. IDEAL & NON-IDEAL SOLUTIONS
+• Ideal Solutions:
+  - Obeys Raoult's Law over entire concentration range.
+  - P_obs = P_calc.
+  - Intermolecular forces: e_AA ≈ e_BB ≈ e_AB.
+  - ΔV_mix = 0 (10 mL + 10 mL = 20 mL).
+  - ΔH_mix = 0 (No heat released or absorbed).
+  - ΔG_mix < 0 (Spontaneous process).
+  - ΔS_mix > 0 (Entropy/randomness increases).
+  - Examples (Same family): CH₄ + C₂H₆, Chlorobenzene + Bromobenzene.
+
+• Non-Ideal Solutions (P_obs ≠ P_calc):
+  1. Positive Deviation:
+     - P_obs > P_calc
+     - Forces: e_AB < e_AA, e_BB (Interactions weaken → Vapors escape easily)
+     - ΔV_mix > 0 (10 mL + 10 mL > 20 mL)
+     - ΔH_mix > 0 (Endothermic process)
+     - ΔG_mix < 0, ΔS_mix > 0
+     - Examples:"Water + Alcohol", CCl₄ + CHCl₃, "Acetone + CS₂", "ethanol + acetone"
+
+  2. Negative Deviation:
+     - P_obs < P_calc
+     - Forces: e_AB > e_AA, e_BB (Interactions strengthen → Vapors form with difficulty)
+     - ΔV_mix < 0 (10 mL + 10 mL < 20 mL)
+     - ΔH_mix < 0 (Exothermic process)
+     - ΔG_mix < 0, ΔS_mix > 0
+     - Examples: Water + Inorganic Acid (e.g., Water + HCl), "Phenol + Aniline"
+
+5. AZEOTROPIC MIXTURES
+• Azeotrope: Binary liquid mixture boiling at constant temperature 'at a unique composition' with same composition in liquid and vapor phase. Cannot be separated by fractional distillation. This phenomena is known as azeotropy.
+• Formed only by Non-Ideal solutions at specific composition.
+
+• Types:
+  1. Minimum Boiling Azeotrope:
+     - Formed by solutions showing large Positive Deviation.
+     - B.P. of azeotrope < B.P. of either component (VP ↑ → B.P. ↓).
+     - Ex. "alcohol + water"
+  2. Maximum Boiling Azeotrope:
+     - Formed by solutions showing large Negative Deviation.
+     - B.P. of azeotrope > B.P. of either component (VP ↓ → B.P. ↑).
+     - Ex. "HNO3 + H20", H2O + HCl
+
+6. COLLIGATIVE PROPERTIES
+• Definition: Properties depending ONLY on number of solute particles, NOT on their nature.
+• Conditions: Solution must be dilute + Solute must be non-volatile solid.
+
+A. Relative Lowering of Vapor Pressure (RLVP):
+• Lowering in VP = p°_A - P_S
+• ⭐ RLVP Formula:
+  (p°_A - P_S) / p°_A = χ_B = n_B / (n_A + n_B) # iska derivation h
+• For dilute solution (n_A >> n_B):
+  (p°_A - P_S) / p°_A = n_B / n_A = (w_B × M_A) / (M_B × w_A)
+• Alternate useful form:    # only shortcut
+  (p°_A - P_S) / P_S = n_B / n_A = (w_B × M_A) / (M_B × w_A)
+
+B. Elevation of Boiling Point (ΔT_b):
+• Boiling Point: Temperature where VP of liquid = External pressure (1 atm).
+• B.P. of Solution (T_b) > B.P. of Pure Solvent (T°_b).
+• Elevation: ΔT_b = T_b - T°_b
+• ⭐ Formula:
+  ΔT_b = K_b × m # iska derivation h
+  ΔT_b = K_b × [(w_B × 1000) / (M_B × w_A)]
+  - m = Molality, w_B = Solute mass (g), w_A = Solvent mass (g), M_B = Solute molar mass.
+  - K_b = Molal elevation constant / Ebullioscopic constant (depends ONLY on solvent; Water K_b = 0.52 K kg mol⁻¹).
+• K_b Relation: K_b = (M_A × R × (T°_b)²) / (1000 × ΔH_vap)    # not in boards
+
+C. Depression of Freezing Point (ΔT_f):
+• Freezing Point: Temperature where VP of liquid phase = VP of solid phase.
+• F.P. of Pure Solvent (T°_f) > F.P. of Solution (T_f).
+• Depression: ΔT_f = T°_f - T_f
+• ⭐ Formula:
+  ΔT_f = K_f × m # iska derivation h
+  ΔT_f = K_f × [(w_B × 1000) / (M_B × w_A)]
+  - K_f = Molal depression constant / Cryoscopic constant ( depends only on nature of solvent, Water K_f = 1.86 K kg mol⁻¹).
+• K_f Relation: K_f = (M_A × R × (T°_f)²) / (1000 × ΔH_fusion)    # not in boards
+
+D. Osmotic Pressure (π):
+• Osmosis: Movement of solvent particles from lower concentration (pure solvent) to higher concentration (solution) through Semi-Permeable Membrane (SPM).
+• Osmotic Pressure (π): Excess pressure applied on solution side to just stop osmosis.
+• ⭐ Van't Hoff Formula:
+  π = C × R × T
+  - C = Molarity (mol/L) = n_B / V
+  - R = 0.0821 L atm K⁻¹ mol⁻¹
+  - T = Temperature in Kelvin (K)
+• Solution Types:
+  - Isotonic: π₁ = π₂ → C₁ = C₂ (at same T)
+  - Hypertonic: Higher π (Higher C)
+  - Hypotonic: Lower π (Lower C)
+  - Osmosis Flow: Hypotonic → Hypertonic (Low π → High π).
+• Resulting Osmotic Pressure on Mixing: π_R = (π₁V₁ + π₂V₂) / (V₁ + V₂)
+
+• Reverse Osmosis (RO): Applied Pressure > π → Solvent flows from Solution to Pure Solvent side. Used in water purification/desalination.
+• Note: Best colligative property for determining molar mass of macromolecules, polymers, biomolecules.
+
+7. ABNORMAL MOLAR MASS & VAN'T HOFF FACTOR (i)
+• Cause: Association or Dissociation of solute in solution.
+  - Dissociation: Particle count ↑ → Colligative Property ↑ → Observed Molar Mass ↓.
+  - Association: Particle count ↓ → Colligative Property ↓ → Observed Molar Mass ↑.
+  - Example: Acetic acid in Benzene forms dimer ((CH₃COOH)₂) → Normal M_B = 60, Observed M_B = 120.
+
+• ⭐ Van't Hoff Factor (i):
+  i = Observed Colligative Property / Calculated Colligative Property
+  i = Normal (Calculated) Molar Mass / Abnormal (Observed) Molar Mass
+  i = Number of particles after dissociation/association / Initial number of particles
+
+• ⭐ Formulas for i:
+  - Dissociation: i = 1 - α + n α = 1 + (n - 1)α # iska derivation h
+    (α = degree of ionization, n = number of ions; i > 1; Complete dissociation α = 1 ⇒ i = n)
+    Examples: NaCl (n=2), CaCl₂ (n=3), K₄[Fe(CN)₆] (n=5).
+  - Association: i = 1 - α + (α / n) # iska derivation h
+    (α = degree of association, n = number of associating molecules; i < 1; Dimer n=2, Trimer n=3)
+
+  - Non-electrolytes: Glucose, Urea, Sucrose → i = 1, α = 0.
+
+• ⭐ UNIVERSAL COLLIGATIVE PROPERTY FORMULAS (WITH i):
+  1. RLVP: (p°_A - P_S) / p°_A = (i × n_B) / (i × n_B + n_A)
+  2. Elevation of B.P.: ΔT_b = i × K_b × m
+  3. Depression of F.P.: ΔT_f = i × K_f × m
+  4. Osmotic Pressure: π = i × C × R × T
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LAST-MINUTE SCAN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Henry's Law: p = K_H × χ_gas | K_H ↑ → Gas solubility ↓ | T ↑ → Gas solubility ↓
+• Raoult's Law: P_total = p°_A + (p°_B - p°_A)χ_B # iska derivation h
+• Vapor Phase Mole Fraction: y_A = p_A / P_total
+• Ideal Solution: ΔV_mix = 0, ΔH_mix = 0, e_AA ≈ e_BB ≈ e_AB
+• Positive Deviation: P_obs > P_calc, ΔV > 0, ΔH > 0 (Endothermic), Min Boiling Azeotrope (Water + Alcohol)
+• Negative Deviation: P_obs < P_calc, ΔV < 0, ΔH < 0 (Exothermic), Max Boiling Azeotrope (Water + Acid)
+• RLVP: (p°_A - P_S) / p°_A = χ_B # iska derivation h | Dilute: (p°_A - P_S) / P_S = n_B / n_A
+• ΔT_b = i × K_b × m # iska derivation h | ΔT_b = T_b - T°_b | Water K_b = 0.52
+• ΔT_f = i × K_f × m # iska derivation h | ΔT_f = T°_f - T_f | Water K_f = 1.86
+• Osmotic Pressure: π = i × C × R × T | Isotonic: π₁ = π₂ (C₁ = C₂) | RO condition: P_applied > π
+• Dissociation: i = 1 + (n - 1)α   # iska derivation h  | i > 1
+• Association: i = 1 - α + (α / n) # iska derivation h | i < 1
+• Non-electrolytes (Glucose, Urea, Sucrose): i = 1
+• Exam Trap 1: Always check B.P. vs F.P. subtraction order → ΔT_b = T_soln - T_solvent; ΔT_f = T_solvent - T_soln!
+• Exam Trap 2: K_b and K_f depend ONLY on solvent nature, NOT on solute.
+• Exam Trap 3: Always apply Van't Hoff factor (i) in numericals unless solute is non-electrolyte (Glucose/Urea/Sucrose).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+When 25.6 g of Sulphur was dissolved in 1000 g of benzene, the freezing point lowered by 0.512 K . Calculate the formula of Sulphur (Sx).
+(Kf for benzene =5.12 K kg mol−1, Atomic mass of Sulphur =32 gmol−1 )
+- Given:
+ Mass of sulphur = 25.6 g
+ Mass of benzene = 1000 g = 1 kg
+ Depression in freezing point (ΔTf) = 0.512 K
+ Kf of benzene = 5.12 K kg mol^-1
+ Atomic mass of sulphur = 32 g mol^-1
+
+ Formula:
+ ΔTf = Kf × m
+
+ Therefore:
+ m = ΔTf / Kf
+ m = 0.512 / 5.12
+ m = 0.1 mol kg^-1
+
+ Since benzene = 1 kg:
+ Moles of sulphur = 0.1 mol
+
+ Molar mass of sulphur:
+ M = Mass / Moles
+ M = 25.6 / 0.1
+ M = 256 g mol^-1
+
+ Let the formula of sulphur be Sx.
+ Then:
+ 32x = 256
+ x = 256 / 32
+ x = 8
+ Therefore, the formula of sulphur is S8.
+
+Shweta mixed two liquids A and B of 10 mL each. After mixing, the volume of the solution was found to be 20⋅2 mL.
+(i) Why was there a volume change after mixing the liquids?
+(ii) Will there be an increase or decrease of temperature after mixing?
+(iii) Give one example for this type of solution.
+- (i) The solution is non ideal, shows positive deviation from Raoult's law / A-B interactions are weaker than A−A and B−B interactions
+(ii)Decrease in temperature
+(iii) Ethanol and acetone (or any other suitable example)

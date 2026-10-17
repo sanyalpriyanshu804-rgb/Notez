@@ -1,0 +1,103 @@
+COMPLETE REVISION SHEET
+
+1. FUNDAMENTALS AND DEFINITIONS
+- Capacitor: Energy-storing device using electric fields. Stores separation of charge, not net charge (Q_net = 0).
+- Capacitance (C): Ratio of magnitude of charge (Q) on one conductor to potential difference (V) between them. C = Q/V.
+- ⭐ Properties: Purely geometric. Independent of Q and V. Depends on Area (A), Separation (d), and Medium (K).
+- Symbols: Symbol is ---||--- (equal length lines). SI Unit: Farad (F). Practical units: μF (10⁻⁶F), nF (10⁻⁹F), pF (10⁻¹²F).
+- ⭐ Dimensions: [M⁻¹L⁻²T⁴A²].
+- Potential Difference (V): Work done per unit charge moving between conductors. Field lines go High V to Low V.
+
+2. STANDARD CAPACITANCE FORMULAS
+- ⭐ Parallel Plate: C = Aε₀/d. A = common overlapping area; d = plate separation.
+# iska derivation h @ photo cap
+- Isolated Sphere: C = 4πε₀R. R = radius. Second boundary assumed at infinity.
+- Concentric Spheres: C = 4πε₀R₁R₂ / (R₂ - R₁). R₁ = inner, R₂ = outer (usually earthed).
+- Cylindrical: C = 2πε₀L / ln(R₂/R₁). L = length; R₁, R₂ = radii.
+- 📌 Assumptions: Infinite Plate Approximation (d² << A) to neglect "fringing" (field distortion at edges). Conductors in electrostatic equilibrium (E_inside = 0).
+
+3. DIELECTRIC EFFECTS
+- Dielectric Constant (K): Factor by which capacitance increases. C_new = KC_air.
+- Induced Charge (Polarization): Q_p = Q(1 - 1/K). Q = free charge.
+- Electric Field (E): E_new = E_air / K (in isolated cases). Polarization field opposes external field.
+- ⭐ Partial Slab Insertion: C = Aε₀ / [d - t(1 - 1/K)]. t = slab thickness.    # derivation @ photo cap2
+- 📌 Note: Capacitance is independent of slab's exact position within the gap.
+- Variable Medium: C_eq = ∫ dC (parallel-like) or 1/C_eq = ∫ (1/dC) (series-like).
+
+4. ENERGY AND FORCE
+- ⭐ Stored Energy (U): U = 0.5CV² = 0.5QV = Q²/2C. Stored in the electric field.
+- Choice of formula: 0.5CV² for parallel (V constant); Q²/2C for series (Q constant).
+- ⭐ Energy Density (u_e): Energy per unit volume. u_e = 0.5ε₀E².
+- Work by Battery (W): W = (Charge flown) x Voltage = qV.
+- ⚠️ Heat Loss: In charging, typically W = QV, U = 0.5QV. Remaining 0.5QV is lost as heat.
+- ⭐ Force Between Plates: F = Q² / (2Aε₀). F is constant regardless of d if Q is constant.
+- 💡 Force with Battery Connected: Halving d doubles C and Q, making F four times (2²) higher.
+- Force on Dielectric: Fringing fields at edges pull dielectric into the gap.
+
+5. COMBINATIONS AND NETWORKS
+- ⭐ Series: Q same on all. V_total = ΣVᵢ. 1/C_eq = Σ(1/Cᵢ). Equivalent is smaller than smallest individual C.
+        - 💡 2 Capacitors Series: C_eq = C₁C₂ / (C₁ + C₂).
+- ⭐ Parallel: V same across all. Q_total = ΣQᵢ. C_eq = ΣCᵢ. Equivalent is larger than largest individual C.
+- Mixed Slabs: Stacked layers = series; side-by-side area division = parallel.
+- ⭐ Common Potential (V_c): V_c = (C₁V₁ + C₂V₂) / (C₁ + C₂).
+- ⭐ Heat Loss in Joining: ΔH = 0.5 * [C₁C₂/(C₁ + C₂)] * (V₁ - V₂)².
+- 📌 Polarity: Use (V₁ + V₂) in ΔH if plates are joined with opposite polarities.
+
+6. ISOLATED VS. BATTERY-CONNECTED (SLAB INSERTION)
+- Battery Connected (V Constant): C increases (KC), Q increases (KQ), E constant (V/d), U increases (KU).
+- Battery Disconnected (Q Constant): C increases (KC), Q constant, V decreases (V/K), E decreases (E/K), U decreases (U/K).
+
+7. RC CIRCUITS (TIME-DEPENDENT)    # with current electricity chapter
+- ⭐ Charging: Q = Q₀(1 - e⁻ᵗ/ᴿᶜ). I = I₀e⁻ᵗ/ᴿᶜ. Q reaches ~99% at 5τ.
+- ⭐ Discharging: Q = Q₀e⁻ᵗ/ᴿᶜ. I = I₀e⁻ᵗ/ᴿᶜ. I₀ = Q₀/RC.
+- ⭐ Time Constant (τ): τ = RC. Dimension of [T].
+- ⭐ Instantaneous State (t=0): Uncharged capacitor acts as a plain wire (short circuit).
+- ⭐ Steady State (t=∞): Capacitor fully charged; current in branch is zero (open circuit).
+
+8. CIRCUIT ANALYSIS TECHNIQUES
+- Junction Law: ΣQᵢ = 0 at an isolated junction (node).
+- Nodal Analysis: Assign 0V to one terminal and track potentials.
+- Plate Numbering: For n plates, identify pairs (1,2), (2,3) etc. Outer surfaces of stack carry equal charges.
+
+--------------------------------------------------------------------------------
+
+LAST-MINUTE REVISION
+
+- Q = CV; C = Aε₀/d; τ = RC.
+- C depends only on Geometry (A, d) and Medium (K).
+- Dielectrics: C always increases (KC). V and E decrease if isolated.
+- Energy: 0.5CV²; Energy Density: 0.5ε₀E².
+- t=0: Capacitor = Wire; t=∞: Capacitor = Break/Open.
+- Series: 1/C_eq = Σ(1/C); Parallel: C_eq = ΣC.
+- Heat Loss: 0.5 * C_eq_series * (ΔV)².
+- Plate Force: Q²/(2Aε₀).
+- Outer surfaces of any parallel plate system have equal charge.
+
+--------------------------------------------------------------------------------
+
+COMMON TRAPS
+
+- ⚠️ Using Resistance Formulas: Capacitor formulas are flipped (Series is 1/C, Parallel is ΣC).
+- ⚠️ Absolute Potential: V in Q=CV is the *potential difference*, not absolute potential.
+- ⚠️ Connected vs Disconnected: Always check if battery is present when inserting dielectric.
+- ⚠️ Net Charge: Net charge on a capacitor is zero; "Q" refers to charge on the positive plate's inner boundary.
+- ⚠️ Overlapping Area: Use common overlapping area A, not total plate area if shifted.
+- ⚠️ Polarization: Polarization reduces net E and V, which is why C increases.
+- ⚠️ Heat Loss Sign: account for sign of charges/potentials (V₁ - V₂ vs V₁ + V₂) when connecting.
+
+--------------------------------------------------------------------------------
+
+ULTRA-QUICK SCAN
+
+- C = Q/V (Geometric property).
+- C = KC₀ (Capacitance boost).
+- Series (Q same); Parallel (V same).
+- U = 0.5CV² (Stored in E-field).
+- u_e = 0.5ε₀E² (Energy/Volume).
+- Slab formula: C = Aε₀/[d-t(1-1/K)].
+- τ = RC (Time constant).
+- t=0: Wire; t=∞: Open.
+- Work_battery = QV; Energy_stored = 0.5QV.
+- Force = Q²/(2Aε₀) (Constant if Q constant).
+- Common V: Total Q / Total C.
+- Steady state = no current in capacitor branch.

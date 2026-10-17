@@ -1,0 +1,154 @@
+COMPLETE REVISION SHEET
+
+1. DISPLACEMENT CURRENT AND RC CIRCUIT
+
+Capacitor Charging Equations:
+- Plate Charge: q(t) = C V (1 - e⁻ᵗ/ᴿ⁻ᶜ)
+- Conduction Current in Wires: I_c = dq/dt = (V/R) e⁻ᵗ/ᴿ⁻ᶜ
+  📌 t = 0: I_c = V/R (short circuit); t → ∞: I_c = 0 (open circuit).
+- Electric Field in Gap: E(t) = q(t)/(A ε₀) = [C V (1 - e⁻ᵗ/ᴿ⁻ᶜ)] / (A ε₀)
+- Electric Flux (radius r ≤ R_plate): Φ_E = E π r² = [C V π r² / (A ε₀)] (1 - e⁻ᵗ/ᴿ⁻ᶜ)
+- Displacement Current Definition: ⭐ I_d = ε₀ (dΦ_E/dt)
+- Displacement Current (radius r): I_d(r) = (V/R) (π r² / A) e⁻ᵗ/ᴿ⁻ᶜ
+- Total Gap Displacement Current (r = R_plate): ⭐ I_d = (V/R) e⁻ᵗ/ᴿ⁻ᶜ = I_c
+- Total Current Continuity: ⭐ I_total = I_c + I_d = (V/R) e⁻ᵗ/ᴿ⁻ᶜ everywhere at all t.
+
+Internal Magnetic Field (r ≤ R_plate):
+- Ampere-Maxwell Law: ∫ B · dl = μ₀ I_d(r) ⇒ B (2 π r) = μ₀ I_d(r)
+- Magnetic Field Formula: ⭐ B(r, t) = (μ₀ I_c r)/(2 A) = (μ₀ I_c r)/(2 π R_plate²) = [μ₀ V r / (2 R A)] e⁻ᵗ/ᴿ⁻ᶜ
+  Units: Tesla (T).
+- Spatial Trend (fixed t): B ∝ r (linear, B = 0 at r = 0, max at r = R_plate).
+- Temporal Trend (fixed r): B ∝ e⁻ᵗ/ᴿ⁻ᶜ (exponential decay to 0 at steady state).
+- Maximum Internal Field (r = R_plate): ⭐ B_max(t) = (μ₀ I_c)/(2 π R_plate)
+
+2. MAXWELL'S FOUR EQUATIONS
+
+1. Gauss's Law for Electrostatics: ⭐ ∫ E · dA = q_in / ε₀
+   Meaning: Electric charges act as sources/sinks of E field lines.
+2. Gauss's Law for Magnetism: ⭐ ∫ B · dA = 0
+   Meaning: Magnetic monopoles do not exist; B field lines form closed loops.
+3. Faraday's Law of Induction: ⭐ ∫ E · dl = -dΦ_B/dt
+   Meaning: Time-varying magnetic flux induces non-conservative E field loops.
+4. Ampere-Maxwell Law: ⭐ ∫ B · dl = μ₀ (I_c + I_d) = μ₀ I_c + μ₀ ε₀ (dΦ_E/dt)
+   Meaning: Magnetic fields arise from moving charges (I_c) and changing E fields (I_d).
+
+3. CURRENT TYPES COMPARISON
+
+- Physical Origin: I_c = drift of electrons; I_d = time-varying electric flux (dΦ_E/dt).
+- Location: I_c in wires/resistors; I_d in capacitor gap.
+- Formulas: I_c = dq/dt; I_d = ε₀ (dΦ_E/dt).
+- Gap Magnitudes: I_c = 0; I_d = (V/R) e⁻ᵗ/ᴿ⁻ᶜ.
+- Wire Magnitudes: I_c = (V/R) e⁻ᵗ/ᴿ⁻ᶜ; I_d = 0.
+- Magnetic Field Generation: Both I_c and I_d generate magnetic fields.
+
+4. WAVE MECHANICS & TRANSVERSE TRAVELING WAVE
+
+Wave Equation:
+y(x, t) = A sin(k x ± ω t + ϕ)  or  A cos(k x ± ω t + ϕ)
+- A = peak amplitude.
+- k = angular wave number = 2π/λ (rad/m), Dimensions: [L⁻¹].
+- ω = angular frequency = 2π/T = 2π ν (rad/s), Dimensions: [T⁻¹].
+- Wave Speed: ⭐ v = ν λ = ω/k
+💡 Shortcut: ω = k v ("ω = KV rule").
+
+Direction Rules:
+- Position variable in bracket (x, y, z) = axis of propagation.
+- Opposite signs (k x - ω t) or (-k x + ω t) → POSITIVE direction (+x).
+- Same signs (k x + ω t) or (-k x - ω t) → NEGATIVE direction (-x).
+
+5. PROPERTIES OF ELECTROMAGNETIC WAVES
+
+Sources:
+- Charge at rest (v = 0, a = 0): Static E field.
+- Charge at uniform v (a = 0): Constant E and B fields; no wave radiation.
+- Accelerated/oscillating charge (a ≠ 0): Continuously radiates EM waves.
+
+Properties:
+- Non-Mechanical: Propagates through vacuum and media without material support.
+- Light Vector: E field vector is the optical vector (retinal/optical forces driven by q E, since v << c ⇒ q(v×B) << qE).
+- Transverse Vector Triad: E ⊥ B ⊥ v.
+  ⭐ E · B = 0, E · v = 0, B · v = 0
+- Propagation Direction: ⭐ v_cap = e_cap × b_cap
+- Polarization Direction: ⭐ Polarization direction = e_cap (orientation of E field).
+- Phase Synchronicity: E and B oscillate in EXACT SAME PHASE (Δϕ = 0).
+  E(x, t) = E₀ j_cap sin(k x - ω t), B(x, t) = B₀ k_cap sin(k x - ω t)
+- Field Amplitude Ratios:
+  ⭐ Vacuum: E₀ / B₀ = c ⇒ E₀ = B₀ c ; E_rms / B_rms = c
+  ⭐ Medium: E₀ / B₀ = v ⇒ E₀ = B₀ v
+- Medium Boundaries:
+  📌 Frequency f (ν) remains strictly CONSTANT (source dependent).
+  Speed v and wavelength λ change: v = f λ.
+  Vacuum speed: c = 1/√(μ₀ ε₀) ≈ 3 × 10⁸ m/s.
+  Medium speed: v = 1/√(μ ε) = 1/√(μ₀ μ_r ε₀ ε_r).
+  Refractive Index: n = c/v = √(μ_r ε_r).
+  For non-magnetic media (μ_r = 1): ⭐ n = √ε_r = √K  (K = dielectric constant).
+
+6. ENERGY DENSITIES AND INTENSITY
+
+Averages & RMS:
+- <sin²> = 1/2, <cos²> = 1/2
+- E_rms = E₀ / √2, B_rms = B₀ / √2
+
+Energy Densities:
+- Instantaneous: u_E = (1/2) ε₀ E², u_B = B² / (2 μ₀)
+- Average Electric Energy Density: ⭐ <u_E> = (1/4) ε₀ E₀² = (1/2) ε₀ E_rms²
+- Average Magnetic Energy Density: ⭐ <u_B> = B₀² / (4 μ₀) = B_rms² / (2 μ₀)
+- Equal Energy Partition: ⭐ <u_E> = <u_B>
+- Total Average Energy Density:
+  ⭐ <u_total> = <u_E> + <u_B> = 2 <u_E> = (1/2) ε₀ E₀² = ε₀ E_rms² = B₀² / (2 μ₀) = B_rms² / μ₀
+  Units: J/m³, Dimensions: [M L⁻¹ T⁻²].
+
+Intensity (I):
+- Definition: Power / Area = Energy / (Area × Time) (W/m², [M T⁻³]).
+- Relation to Energy Density: ⭐ I = <u_total> c
+- Intensity Formulas:
+  ⭐ I = (1/2) ε₀ E₀² c = ε₀ E_rms² c = (B₀² c) / (2 μ₀) = (B_rms² c) / μ₀
+- Peak Field from Intensity: ⭐ E₀ = √[(2 I) / (ε₀ c)]
+- Point Source (Isotropic): ⭐ I(r) = P / (4 π r²) ∝ 1/r²
+  Field Amplitudes: E₀(r) ∝ 1/r, B₀(r) ∝ 1/r.
+
+7. STANDARD RESULTS & APPLICATION PATTERNS
+
+- Dielectric Constant: K = n² = (c / v)² = (c k / ω)².
+- Spatial Zero-Node Separation: Distance between consecutive zero nodes of E or B along propagation axis = λ/2.
+
+LAST-MINUTE REVISION
+
+- Conduction Current: I_c = dq/dt = (V/R) e⁻ᵗ/ᴿ⁻ᶜ
+- Displacement Current: I_d = ε₀ (dΦ_E/dt); in gap I_d = I_c = (V/R) e⁻ᵗ/ᴿ⁻ᶜ
+- Internal B Field (r ≤ R_plate): B(r, t) = (μ₀ I_c r) / (2 A); B_max = (μ₀ I_c) / (2 π R_plate)
+- Wave Relations: v = f λ = ω/k (ω = k v)
+- Wave Speeds: c = 1/√(μ₀ ε₀) ≈ 3 × 10⁸ m/s; v = 1/√(μ ε); n = c/v = √(μ_r ε_r) = √K (non-magnetic)
+- Vector Rules: E ⊥ B ⊥ v; E · B = 0; v_cap = e_cap × b_cap; polarization = e_cap
+- Field Ratios: E₀ = B₀ c; E_rms = E₀/√2; B_rms = B₀/√2
+- Phase: E and B in EXACT SAME PHASE (Δϕ = 0)
+- Energy Densities: <u_E> = (1/4) ε₀ E₀² = (1/2) ε₀ E_rms²; <u_B> = B₀² / (4 μ₀); <u_E> = <u_B>
+- Total Energy Density: <u_total> = (1/2) ε₀ E₀² = ε₀ E_rms² = B₀² / (2 μ₀) = B_rms² / μ₀
+- Intensity: I = <u_total> c = (1/2) ε₀ E₀² c = ε₀ E_rms² c = P / (4 π r²)
+- Peak Electric Field: E₀ = √[(2 I) / (ε₀ c)]
+- Constants: ε₀ = 8.854 × 10⁻¹² F/m, μ₀ = 4π × 10⁻⁷ T m/A, c = 3 × 10⁸ m/s
+
+COMMON TRAPS
+
+1. ⚠️ Energy Density Factor: Peak E₀ uses (1/4) ε₀ E₀² for <u_E>. Use 1/2 ONLY with RMS E_rms! <u_total> uses (1/2) ε₀ E₀² or ε₀ E_rms².
+2. ⚠️ Propagation Sign: (k x - ω t) moves in +x direction; (k x + ω t) moves in -x direction.
+3. ⚠️ Phase Difference Myth: E and B are spatially perpendicular, but in EXACT SAME PHASE (Δϕ = 0).
+4. ⚠️ Amplitude Conversion: E₀ = B₀ c (NOT B₀/c). E₀ in V/m is 3 × 10⁸ times larger than B₀ in Tesla.
+5. ⚠️ Missing ε₀ in I_d: I_d = ε₀ (dΦ_E/dt). Leaving out ε₀ gives wrong units.
+6. ⚠️ Gap B-Field Linearity: B inside circular plates grows linearly with r (B ∝ r), it is NOT uniform!
+7. ⚠️ Medium Frequency Invariance: Frequency f NEVER changes across media; v and λ change.
+8. ⚠️ Cross Product Order: v_cap = e_cap × b_cap. Reversing order gives opposite direction (-v_cap).
+
+ULTRA-QUICK SCAN
+
+- I_d = ε₀ (dΦ_E/dt); in gap I_d = I_c.
+- Gap B(r) = (μ₀ I_c r) / (2 A); B ∝ r (r ≤ R_plate).
+- Maxwell 4: ∫E·dA = q/ε₀, ∫B·dA = 0, ∫E·dl = -dΦ_B/dt, ∫B·dl = μ₀(I_c + ε₀ dΦ_E/dt).
+- v = ω/k ("ω = KV"); c = 1/√(μ₀ ε₀); n = c/v = √K.
+- E₀ = B₀ c; E ⊥ B ⊥ v; v_cap = e_cap × b_cap; polarization = e_cap.
+- Δϕ = 0 (Same phase).
+- <u_E> = <u_B> = (1/4) ε₀ E₀² = (1/2) ε₀ E_rms².
+- <u_total> = (1/2) ε₀ E₀² = ε₀ E_rms².
+- I = <u_total> c = (1/2) ε₀ E₀² c; Point source I = P / (4 π r²).
+- Zero-node distance = λ/2.
+- Frequency f is constant across media.

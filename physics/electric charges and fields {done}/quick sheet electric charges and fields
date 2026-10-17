@@ -1,0 +1,135 @@
+COMPLETE REVISION SHEET
+
+1. FUNDAMENTALS OF ELECTRIC CHARGE
+- Definition: Intrinsic property to exert/experience electrical forces.
+- Scalar Nature/Additivity: q_net = q₁ + q₂ ... (algebraic sum with signs).
+- ⭐ Quantization: Q = ±ne; e ≈ 1.6 x 10⁻¹⁹ C. Charge exists in discrete integral multiples.
+- Transferability/Conservation: Electrons move between bodies; charge cannot be created/destroyed.
+- 📌 Association with Mass: Charge cannot exist without mass. Charging changes mass: negative (heavier, gains e⁻), positive (lighter, loses e⁻).
+- Invariance: Charge magnitude is independent of speed (unlike mass/length/time).
+
+- Charging Mechanism: Transfer of electrons to disturb neutrality. Positive = Deficiency; Negative = Excess.
+- # Work Function: Work required to remove an electron from a body's surface.
+
+2. METHODS OF CHARGING
+- Friction: Rubbing transfers electrons. Body with lower work function becomes (+) charged; other becomes (-).
+- 📌 Induction: No physical contact. Redistribution/polarization occurs. Works only for conductors. Requires earthing (Positive body earthed -> e⁻ flow Earth to body; Negative -> body to Earth).
+- Conduction: Charging by touch. Identical conductors share charge equally: Q_final = (q₁ + q₂) / 2. Charge flows until potentials are equal.
+
+3. COULOMB'S LAW AND INTERACTIONS
+- ⭐ The Law: F = k(q₁ x q₂)/r². Force between point charges ∝ product of charges, inversely ∝ r².
+- 📌 Point Charge Condition: Body dimensions negligible compared to distance r.
+- 📌 Validity: Not applicable for r < 10⁻¹⁵ m.
+- Properties: Follows Newton's 3rd Law; Central force (along line joining charges); Conservative force.
+- ⭐ Medium Dependence: F_medium = F_vacuum / K. K = dielectric constant = ε/ε₀.
+- Dielectric Constants (K): Water ≈ 80 (weakens ionic bonds); Conductors K = ∞ (F_inside = 0; electrostatic shielding).
+- 💡 Force Change Formulas:
+  ΔF/F = (K - 1)/K (fractional change).
+  % change = [(K - 1)/K] x 100.
+- Superposition Principle: Net force = vector sum of individual forces. Force between two charges is unaffected by others.
+
+4. ELECTRIC FIELD (EF) AND MOTION
+- Definition: 3D space where test charge experiences force.
+- ⭐ Intensity (E): E = F/q₀ (Force per unit test charge). Direction: Away from (+), towards (-).
+- Motion in Uniform Field: Constant acceleration a = qE/m.
+- 📌 Trajectory: Parabolic trajectory if projected perpendicular to E (similar to projectile motion).
+
+5. ELECTRIC FIELD LINES
+- Purpose: Imaginary lines representing 3D field.
+- Properties:
+  Originate at (+), terminate at (-).
+  ⚠️ Never form closed loops.
+  ⚠️ Never intersect (implies two force directions at one point).
+  Density ∝ Field Strength.
+  Inside Conductors: E = 0; Lines terminate perpendicular to surface.
+
+6. EF DUE TO CHARGE DISTRIBUTIONS
+- Charge Densities: λ (Linear: q/L), σ (Surface: q/A), ρ (Volume: q/V).
+- ⭐ Finite Rod (on axis): E = kQ / [x(x + L)]; x = distance from end.
+- ⭐ Infinite Wire: E = 2kλ/r.    # gauss law se derivation.
+- Semi-infinite Wire: E_perp = kλ/r; E_para = kλ/r. Net field at 45°.
+- ⭐ Angular Arc/Ring (center): E = (2kλ sin(θ/2)) / R. Direction: Along angle bisector.
+  Semi-circular: θ = π, E = 2kλ/R = 2kQ / (πR²).
+  Full Ring: θ = 2π, E = 0.
+- ⭐ Finite Thread/Rod (General):
+  E_perp = (kλ/r)(sinθ₁ + sinθ₂).
+  E_para = | (kλ/r)(cosθ₂ - cosθ₁) |.
+  📌 Symmetry: If θ₁ = θ₂, E_para = 0.
+- ⭐ Ring on Axis: E = kQx / (R² + x²)³/².
+  Center (x=0): E = 0.
+  💡 Maximum E: At x = ± R/√2.
+- ⭐ Surface Distributions:    # gauss law se derivation.
+  Infinite Charged Sheet: E = σ / 2ε₀ (Uniform, independent of r).
+  📌 Conducting Plates: Outermost surfaces carry (ΣQ)/2. Inner facing surfaces carry equal and opposite charges.
+- ⭐ Spherical Distributions:
+  Hollow/Conducting Sphere: Inside (r < R) E = 0; Outside/Surface E = kQ/r².
+  Non-conducting (Solid) Sphere: Outside E = kQ/r²; Inside E = kQr/R³ = ρr/3ε₀ (E ∝ r).
+- Cylindrical (Non-conducting): Inside E = ρr/2ε₀; Outside E = ρR² / (2ε₀r).
+
+7. ELECTRIC DIPOLE
+- Definition: ±q separated by small distance 2a.
+- ⭐ Dipole Moment (p): p = q x 2a. Vector from (-) to (+).
+- Field Intensity:    # dono k derivation h.
+  Axial: E = 2kp/r³ (parallel to p).
+  Equatorial: E = kp/r³ (anti-parallel to p).
+- Uniform EF Interactions:
+  📌 Net Force: Always zero (F_net = 0).
+  ⭐ Torque: τ = p x E = pE sinθ.
+  ⭐ Work Done: W = pE(cosθ₁ - cosθ₂).
+  ⭐ Potential Energy: U = -p ⋅ E = -pE cosθ.
+  📌 Equilibrium: Stable at θ = 0° (min U); Unstable at θ = 180° (max U).
+- Field Behavior Comparison:
+  Monopole (q ≠ 0): E ∝ 1/r².
+  Dipole (q_net = 0, p ≠ 0): E ∝ 1/r³.
+  Quadrupole: E ∝ 1/r⁴.
+
+8. ELECTRIC FLUX AND GAUSS LAW
+- ⭐ Flux (Φₑ): Φ = E ⋅ A = EA cosθ.
+  Sign: Positive = Outgoing; Negative = Entering.
+- ⭐ Gauss Law: Φ_net = ∮ E ⋅ dA = Q_in / ε₀.
+- 📌 Key Properties:
+  Dependent only on enclosed charge (Q_in).
+  Independent of shape/size of Gaussian surface.
+  E in the formula is resultant field from ALL charges (internal + external).
+  ⚠️ External charges contribute zero net flux (lines enter and leave).
+
+LAST-MINUTE REVISION
+- Charge Quantization: Q = ±ne (e = 1.6 x 10⁻¹⁹ C).
+- Coulomb Force: F = kq₁q₂/r². F_med = F_vac/K.
+- Dielectric K: Conductors = ∞ (E_inside = 0).
+- Motion in E: a = qE/m; Trajectory = Parabolic.
+- Wire E: 2kλ/r.
+- Sheet E: σ/2ε₀ (Uniform).
+- Ring E (axis): kQx/(R² + x²)³/². Max at x = R/√2.
+- Sphere E:
+  Inside Conducting/Hollow = 0.
+  Inside Solid Non-conducting ∝ r.
+- Dipole: p = q(2a). τ = pE sinθ. U = -pE cosθ.
+- Axial E (2kp/r³) = 2 x Equatorial E (kp/r³).
+- Gauss Law: Φ = Q_in/ε₀. Flux is independent of surface geometry.
+
+COMMON TRAPS
+- ⚠️ Additivity vs. Vector Addition: Charge is scalar (algebraic sum); Electric Field/Force are vectors (vector sum).
+- ⚠️ Mass change: Charging a body changes mass (e⁻ has mass!).
+- ⚠️ Closed loops: Field lines never form closed loops (starts at +, ends at -).
+- ⚠️ Potential vs. Charge: In conduction, charge flows until potentials are same, not necessarily charges.
+- ⚠️ Dipole Force: F_net = 0 ONLY in uniform fields. In non-uniform fields, F_net ≠ 0.
+- ⚠️ Gauss Law E: The E in ∮ E.dA is the net field from all charges, but flux only depends on enclosed charge.
+- ⚠️ Medium: Using F = kq₁q₂/r² without dividing by K in a medium.
+- ⚠️ 1/r² vs 1/r³: Monopole E ∝ 1/r² but Dipole E ∝ 1/r³.
+
+ULTRA-QUICK SCAN
+- Q = ne.
+- F = kq₁q₂/r².
+- E = F/q₀.
+- λ = q/L, σ = q/A, ρ = q/V.
+- Wire: 2kλ/r.
+- Sheet: σ/2ε₀.
+- Hollow Sphere: E_in = 0.
+- Solid Sphere: E_in ∝ r.
+- p = q(2a).
+- τ = pE sinθ.
+- U = -pE cosθ.
+- Φ = E.A = Q_in/ε₀.
+- Stable Eq: θ = 0.
+- Unstable Eq: θ = 180.

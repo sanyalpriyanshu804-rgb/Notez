@@ -1,0 +1,81 @@
+MAGNETISM AND MATTER REVISION SHEET
+
+Properties of magnet -
+a) Magnet attract material like iron, nickel, cobalt etc.
+b) Isolated magnetic poles or monopoles do not exist.
+c) Like poles repel each other while unlike poles attract.
+d) Magnets have directive properties, they align themselves in North-South direction when suspended freely.
+e) Magnet induces magnetism in magnetic material when placed near it. This is called magnetic induction
+
+Properties of magnetic field lines -
+a) Magnetic field lines travels from North to South outside the magnet and opposite inside.
+b) Magnetic field lines form closed loops.
+c) Two magnetic field lines never intersect each other because if they do, two directions.
+d) Magnetic field lines exist inside every magnetized material.
+
+1. LOOPS AND DIPOLES
+* Formula: M = NIA (N: turns, I: current, A: area). Unit: A.m²
+* Circle has max Area (and M) for fixed perimeter.
+* Direction: Right-hand thumb rule. Anti-clockwise face = North.
+* Folded loops: M_net = √(M₁² + M₂² + 2M₁M₂cosθ). 90 deg fold = M√2.
+
+Magnetic dipole : A magnetic dipole consist of two unlike poles of equal strength seperate by small distance.
+Magnetic dipole moment(M) : It is the product of pole strength of either pole and magnetic length of magnet. Direction South to North. Unit Ampere-meter².
+
+2. FIELDS AND FORCES
+* Torque τ = M x B = MB sin θ. Max at 90 deg, zero at 0/180 deg.
+* Energy U = -M⋅B = -MB cos θ.
+* Work W = MB(cos θ₁ - cos θ₂).
+* Stable: 0 deg (U = -MB); Unstable: 180 deg (U = +MB).
+* SHM Time Period: T = 2π √(I/MB). Small θ required.
+
+3. BAR MAGNETS
+* Moment M = m⋅L (Pole strength x length). Direction: South to North.
+* Pole strength m ∝ Area. Unit: A-m.
+* No monopoles: Gauss Law ∫B.dA = 0.    # net magnetic flux through a closed surface is always zero, magnetic monopoles do not exist.
+* Cutting: M' = M/n (Transverse or Longitudinal).
+* Bending: Semicircle M' = 2M/π; L-shape M' = M/√2; Circle M' = 0.
+* Electrostatics Analogy: p ⇄ M, E ⇄ B, k ⇄ μ₀/4π. Axial B = (μ₀/4π)2M/r³.
+
+Magnetizing field intensity or magnetising force(H) : When a substances of soft iron core is kept inside solenoid then it also get some magnetised. The property of a field to magnetize substance is called magnetizing field intensity or magnetising force.
+
+Diamagnetic substance : Diamagnetic substances are those in which the individual atoms molecules ions don't possess any net magnetic moment on their own.
+    When such substances are kept in external magnetic field they get weekly magnetized in opposite direction to magnetising field.
+    Electrons are found in pair and in opposite direction thus they cancel each others magnetic effect.
+
+4. EARTH'S MAGNETISM
+* Horizontal Component: B_h = B_e cos δ.
+* Vertical Component: B_v = B_e sin δ.
+* Tangent Law: tan δ = B_v/B_h.
+* Equator: δ = 0, B_v = 0, B_h = B_e.
+* Poles: δ = 90, B_h = 0, B_v = B_e.
+* Apparent Dip: tan δ' = tan δ_true / cos β.
+
+5. ATOMIC AND MATERIALS
+* Electron Orbit: M = evr/2 = eL/2m. M ∝ n (orbit number).
+* Gyromagnetic Ratio: M/L = e/2m = 8.8 x 10¹⁰ C/kg (Constant for an electron).
+* Susceptibility χ = I/H. Relation: μ_r = 1 + χ.
+
+* Diamagnets: χ small/negative, temp independent.
+* Paramagnets: χ small/positive, χ ∝ 1/T (Curie Law).
+* Ferromagnets: χ large/positive. Above Tc, becomes Para.
+
+* Soft Iron: Low Coercivity, High Permeability (Electromagnets).
+* Steel: High Coercivity (Permanent magnets).
+
+LAST-MINUTE CHECKS
+* Dipole force ∝ 1/r⁴ (Charge force ∝ 1/r²).
+* India is in N-Hemisphere (Dip is positive, needle down).
+* Hysteresis area = Energy loss per volume per cycle.
+* Combination: M1/M2 = (Td² + Ts²)/(Td² - Ts²).
+* I = 1/12 ML² for rod about center. I always adds.
+
+ULTRA-QUICK SCAN
+*   M = NIA Circle has max M for same perimeter.
+*   Stable 0° (-MB); Unstable 180° (+MB).
+*   Gauss's Law (B⋅dA = 0).
+*   Magnet Cut (M_{new} = M/n).
+*   Dip Circle Must be in Magnetic Meridian for True Dip.
+*   Gyromagnetic Ratio Constant (e/2m).
+*   Curie's Law (χ ∝ 1/T) (Para only).
+*   Soft Iron Thin loop (low loss); Steel Wide loop (permanent).

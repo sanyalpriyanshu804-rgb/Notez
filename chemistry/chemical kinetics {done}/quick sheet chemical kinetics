@@ -1,0 +1,180 @@
+COMPLETE REVISION SHEET: CHEMICAL KINETICS
+
+1. INTRODUCTION AND CLASSIFICATION
+- Definition: Study of reaction rates (speed), factors affecting rates (C, T, P, catalyst), and reaction mechanism (path).
+- Classification by Speed:
+1. Very Fast: Instantaneous, e.g., ionic reactions.
+2. Very Slow: Days/years, e.g., rusting of iron.
+3. Moderate: Measurable speed; kinetics focus.
+- 📌 Thermodynamics Link: ΔG < 0 means feasible but doesn't guarantee speed (e.g., diamond to graphite). Thermodynamics = "State function" (blind to path); Kinetics = Study of actual path (Transition State).
+
+2. RATE OF REACTION (ROR)
+- Definition: Change in concentration (ΔC) of reactants/products per unit time (Δt).
+- ⭐ General Expression: aA + bB → cC + dD
+ROR = -(1/a)Δ[A]/Δt = -(1/b)Δ[B]/Δt = +(1/c)Δ[C]/Δt = +(1/d)Δ[D]/Δt
+- ⚠️ Rate of Disappearance (A) = -Δ[A]/Δt (No coefficient).
+- ⚠️ Rate of Appearance (C) = +Δ[C]/Δt (No coefficient).
+- 📌 Sign Convention: (-) for reactants (as concentration decreases), (+) for products. Rate is always positive.
+- Units: mol L⁻¹ sec⁻¹ (M s⁻¹). For gases: atm sec⁻¹.
+- Average Rate (R_avg): Measured over large Δt.
+- Instantaneous Rate (R_inst): Rate at specific time (t). R_inst = ±dC/dt (Slope of tangent to C-t curve).
+
+3. RATE LAW AND ORDER OF REACTION
+- Rate Law: Experimental expression. Rate = k[A]ˣ[B]ʸ.
+- x, y: Order w.r.t A and B. Determined experimentally. x/y may or may not equal a/b.
+- ⭐ Overall Order (n): n = x + y. Can be 0, (+), (-), or fractional.
+- Rate Constant (k): Specific rate of reaction when [A]=[B]=1 M.
+- 📌 k Characteristics: Faster reaction = larger k. Constant at fixed T. Independent of [A]₀. Changes with T and Catalyst.
+- ⭐ Unit of k: mol¹⁻ⁿ Lⁿ⁻¹ sec⁻¹ (where n = overall order).
+n = 0: mol L⁻¹ s⁻¹
+n = 1: s⁻¹
+n = 2: mol⁻¹ L s⁻¹
+
+4. REACTION TYPES
+- Elementary Reactions: Single step. ⭐ Order = Molecularity. Rate law from stoichiometry.
+- Complex Reactions: Multiple steps (mechanism).
+- 📌 Rate Determining Step (RDS): The slowest step controls overall rate.
+- Intermediates: Formed and consumed during mechanism; must be removed from final rate law using fast-step equilibrium.
+# jo reactions fast di h unhe equilibrium m manenge aur phi unka equilibrium constant nikalke uske expressions k madad se intermediates ko hatayenge substitute karke
+
+5. MOLECULARITY
+- Definition: Number of species colliding simultaneously in an elementary reaction.
+- 📌 Nature: Theoretical concept, always a positive integer (1, 2, 3). Cannot be 0 or fractional.
+- ⚠️ Restriction: Defined only for elementary reactions. No meaning for complex reactions.
+- Probability Barrier: Molecularity > 3 is rare due to low collision probability.
+# order = molecularity, for elementary reactions.
+
+6. PSEUDO FIRST ORDER REACTIONS
+- Definition: Appears higher order but follows 1st order because one reactant is in "large excess" (solvent).
+- 💡 Mechanism: [Excess] ≈ Constant. New k = k'[Excess].
+- Examples:
+1. Acid-catalyzed ester hydrolysis (Water in excess).
+            CH₃COOC₂H₅ + H₂O  -->  CH₃COOH + C₂H₅OH
+2. Inversion of Cane Sugar (Sucrose hydrolysis).
+            C₁₂H₂₂O₁₁ + H₂0  -->  C₆H₁₂O₆ {glucose} + C₆H₁₂O₆ {fructose}
+
+7. INTEGRATED RATE EQUATIONS
+- ⭐ Zero Order (n=0):
+Equation: [A]ₜ = [A]₀ - kt
+Half-life: t₁/₂ = [A]₀/2k
+📌 Graph: [A] vs t is linear, slope = -k, intercept = [A]₀.
+Specialty: Finishes in finite time t_comp = [A]₀/k.
+e.g. Surface catalysed rxn, photolytic rxn
+
+- ⭐ First Order (n=1):
+Equation: kt = 2.303 log₁₀([A]₀/[A]ₜ) or [A]ₜ = [A]₀ e⁻ᵏᵗ
+Half-life: t₁/₂ = 0.693/k
+📌 Property: t₁/₂ is independent of [A]₀.
+Degree of dissociation (α): α = 1 - e⁻ᵏᵗ
+Amount left after n half-lives: [A]ₙ = [A]₀/2ⁿ
+💡 Time Ratios: t₇₅% = 2 × t₅₀%; t₈₇.₅% = 3 × t₅₀%; t₉₉.₉% ≈ 10 × t₅₀%.
+📌 Gaseous Rxn (A → B + C): k = (2.303/t) log₁₀[Pᵢ / (2Pᵢ - Pₜ)] (Pₜ = total pressure).
+e.g. Radioactive decay, decomposition of N₂O₅ to N₂O₄ and 1/2(O₂), decomposition of H₂O₂ to H₂O and 1/2(O₂)
+
+- ⭐ nᵗʰ Order (n ≥ 2):
+Equation: kt = [1/(n-1)] [1/[A]ₜⁿ⁻¹ - 1/[A]₀ⁿ⁻¹]
+Half-life: t₁/₂ ∝ 1/[A]₀ⁿ⁻¹
+
+8. FACTORS AFFECTING RATE
+- Surface Area: Rate ∝ Surface Area (for heterogeneous solids). #same for light exposure
+- Catalyst: Lowers Activation Energy (Eₐ) → Provides alternative path.
+📌 Catalyst does NOT change ΔG, ΔH, or K_eq.
+- ⭐ Temperature: Rate increases with T.
+Temperature Coefficient (μ): μ = kₜ₊₁₀ / kₜ ≈ 2 to 3.
+General Form: k₂/k₁ = μ^(ΔT/10)
+
+9. ARRHENIUS EQUATION
+- ⭐ Equation: k = A e⁻ᴱᵃ/ᴿᵀ
+A: Arrhenius factor / Pre-exponential factor / Frequency factor. Units of A = Units of k.
+Eₐ: Activation Energy (Always +ve for elementary rxns).
+e⁻ᴱᵃ/ᴿᵀ: Fraction of molecules with energy ≥ Eₐ.
+- ⭐ Log Forms:
+ln k = ln A - Eₐ/RT
+log₁₀ k = log₁₀ A - Eₐ/(2.303RT)
+📌 Graph: log k vs 1/T is linear, slope = -Eₐ/(2.303R), intercept = log A.
+- ⭐ Two-Temperature Form:
+log₁₀(k₂/k₁) = (Eₐ/2.303R) [ (T₂ - T₁)/(T₁T₂) ]
+⚠️ Use R = 8.314 J/K·mol. Ensure Eₐ is in Joules.
+
+10. COLLISION THEORY
+- Rate = p Z e⁻ᴱᵃ/ᴿᵀ
+- Z: Collision frequency (total collisions per unit vol/time).
+- p: Steric factor / Probability factor (orientation requirement).
+- A = p Z (Frequency factor = orientation × collision frequency).
+- Criteria for Effective Collision:
+1. Energy Barrier: Must reach Threshold Energy (Eₜₕ). Eₜₕ = H_reactant + Eₐ.
+2. Orientation Barrier: Correct spatial arrangement to break/form bonds.
+
+11. ENTHALPY AND REVERSIBLE REACTIONS
+- ⭐ ΔH = Eₐ(fwd) - Eₐ(back)
+- Endothermic: Eₐ(fwd) > Eₐ(back) → ΔH = (+)
+- Exothermic: Eₐ(back) > Eₐ(fwd) → ΔH = (-)
+
+12. SPECIALIZED KINETICS
+- Parallel Reactions (A → B with k₁, A → C with k₂):
+        k_eff = k₁ + k₂
+        1/(t₁/₂)_eff = 1/(t₁/₂)₁ + 1/(t₁/₂)₂
+        Eₐ_eff = (Eₐk₁ + Eₐk₂) / (k₁ + k₂)
+        [B]/[C] = k₁/k₂
+- Sequential Reactions (A → B → C): [B] peaks when d[B]/dt = 0.
+- Reversible Reactions: Net Rate = k_f[A] - k_b[B]. At equilibrium, Net Rate = 0.
+
+--------------------------------------------------------------------------------
+
+LAST-MINUTE REVISION
+
+- ⭐ Zero Order: t₁/₂ = [A]₀/2k; [A]ₜ = [A]₀ - kt.
+- ⭐ First Order: t₁/₂ = 0.693/k; kt = 2.303 log([A]₀/[A]ₜ).
+- ⭐ Unit of k: mol¹⁻ⁿ Lⁿ⁻¹ s⁻¹ (Check units to find order).
+- 📌 Catalyst: Only lowers Eₐ; ΔH and K_eq are unaffected.
+- ⭐ Arrhenius Slope: -Eₐ/2.303R (log k vs 1/T).
+- 💡 1st Order Shortcuts: t₇₅%=2t₅₀%, t₈₇.₅%=3t₅₀%, t₉₉.₉%=10t₅₀%.
+- ⭐ R values for Eₐ: R = 8.314 J/K·mol (Don't use 0.0821).
+- 📌 Threshold Energy (Eₜₕ): Eₐ + energy of reactants.
+- 💡 Parallel: k_total = sum of individual k values.
+
+--------------------------------------------------------------------------------
+
+COMMON TRAPS
+
+- ⚠️ Individual Rates vs. ROR: Individual rates (-ΔA/Δt) do NOT include coefficients. ROR divides by them.
+- ⚠️ Elementary Trap: Only assume molecularity = order if "elementary" is explicitly stated.
+- ⚠️ Unit Mismatch: Always check if Eₐ is in kJ or J when using R = 8.314 (J).
+- ⚠️ Pseudo Order: Water concentration is constant (solvent); ignore it in 1st order rate law.
+- ⚠️ log vs ln: Use 2.303 when switching from natural log (ln) to log₁₀.
+- ⚠️ T dependence of Radioactive Decay: Trap! Eₐ = 0 for decay, so rate constant doesn't depend on T.
+- ⚠️ Gaseous ROR: Never put P_total directly into log. Must calculate P_reactant.
+
+--------------------------------------------------------------------------------
+
+ULTRA-QUICK SCAN
+
+- Rate = ΔC/Δt.
+- Order: Experimental sum of powers.
+- Molecularity: Theoretical collision count (Elementary only).
+- k units: M¹⁻ⁿ s⁻¹.
+- 1st Order: kt = ln([A]₀/[A]ₜ); Half-life independent of [A]₀.
+- Zero Order: [A]ₜ = [A]₀ - kt; Half-life ∝ [A]₀.
+- Arrhenius: k = Ae⁻ᴱᵃ/ᴿᵀ.
+- Catalyst: Lower Eₐ path.
+- Orientation + Energy = Successful collision.
+- Parallel: [B]/[C] = k₁/k₂.
+- N₂O₅ decomposition = 1st order.
+
+--------------------------------------------------------------------------------
+
+Why is molecularity applicable only for elementary reactions whereas order is applicable for elementary as well as complex reactions?
+- Molecularity is defined only for elementary reactions whereas order is experimentally determined hence applicable for both / Because molecularity of each elementary reaction in complex reaction may be different and hence meaningless for overall complex reaction whereas order of a complex reaction is experimentally determined by the slowest step in its mechanism and is therefore applicable for both.
+
+The reaction between H2( g) and I2( g) was carried out in a sealed isothermal container. The rate law for the reaction was found to be :
+ Rate =k[H2][I2]
+If 1 mole of H2( g) was added to the reaction chamber and the temperature was kept constant, then predict the change in rate of the reaction and the rate constant.
+- Rate of the reaction will increase.
+Rate constant remains same.
+
+When a catalyst increases the rate of a chemical reaction, then the rate constant (k) : remains constant
+
+The order of the reaction H2(g)+Cl2(g) {hv}→ 2HCl(g) is :
+- 0
+
+Will the rate constant of the reaction depend upon T if the Eact  (activation energy) of the reaction is zero? No.

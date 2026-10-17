@@ -1,0 +1,70 @@
+MOVING CHARGES AND MAGNETISM REVISION SHEET
+
+1. FUNDAMENTALS
+* Source: Moving charges produce B. Static charges produce E only.
+* RHTR: Straight wire (Thumb=I, Curl=B); Loop (Curl=I, Thumb=B).
+* Notation: (x) = Inward; (⋅) = Outward.
+* Current Element: I dl is a vector in direction of current.
+
+2. BIOT-SAVART LAW (BSL)
+* Formula: dB = (μ₀/4π) * I(dl x r) / r³
+* Magnitude: dB = μ₀ I dl sinθ / (4π r²)
+* Point on axis: θ = 0 or 180 → B = 0.
+* Moving Charge: B = (μ₀/4π) * q(v x r) / r³
+
+3. STRAIGHT CONDUCTORS
+* Finite Wire: B = (μ₀I / 4πr) * (sinθ₁ + sinθ₂)
+* Infinite Wire: B = μ₀I / 2πr (Field ∝ 1/r)
+* Semi-Infinite: B = μ₀I / 4πr
+* Off-Axis: B = (μ₀I / 4πr) * (sinθ₂ - sinθ₁)
+* Null Point (Parallel): x = I₁d / (I₁ + I₂) [x from I₁, null shifts to smaller I]
+
+4. CIRCULAR GEOMETRIES
+* Arc Formula: B = (μ₀I / 2R) * (θ_deg / 360) OR B = μ₀I θ_rad / 4πR
+* Full Circle: μ₀I / 2R; Semi: μ₀I / 4R; Quarter: μ₀I / 8R    # iska derivation h
+* Axial Point: B = n μ₀ I R² / [2(R² + x²)^(3/2)]    # iska derivation h
+* Symmetry: Uniform closed loop center field B = 0.
+
+5. AMPERE'S CIRCUITAL LAW (ACL)
+Acc. to Ampere's circuital law, the line integral of magnetic field is equal to μ₀ times the net current passing through the loop.
+* Law: Integral B.dl = μ₀ I_enclosed
+* Hollow Cylinder: B_in = 0; B_out = μ₀I / 2πr
+* Solid Cylinder: B_in = μ₀Ir / 2πR² (B ∝ r); B_out = μ₀I / 2πr (B ∝ 1/r)
+* Thick Hollow (a<r<b): B = (μ₀I / 2πr) * (r² - a²) / (b² - a²)
+* Variable J: I = Integral J * 2πr dr
+
+6. SOLENOIDS AND TOROIDS
+* Infinite Solenoid: B = μ₀nI [n = N/L]
+* Solenoid End: B_end = 1/2 μ₀nI
+* Toroid Core: B = μ₀NI / 2πr [B ∝ 1/r]
+* Toroid Hole/Exterior: B = 0
+* Toroid Flux (Rectangular): Φ = (μ₀NIh / 2π) * ln(b/a)
+
+7. CHARGE MOTION
+* Force: F = q(v x B) = qvB sinθ
+* Work Done = 0; Speed/KE = Constant.
+* Circular (90 deg): R = mv/qB; T = 2πm/qB [T independent of v, R]
+* Helix (θ): R = mv sinθ / qB; Pitch P = (v cosθ) * T
+* Lorentz Force: F_net = qE + q(v x B)    # the total force acting on a charge in an electromagnetic field.
+* Velocity Selector: v = E/B
+* Cyclotron: K_max = q²B²R² / 2m
+* Angular Deflection: sinα = d/R; Shift y = R(1 - cosα); Time t = mα_rad / qB
+
+8. FORCES ON CONDUCTORS
+* Force: F = I(L x B) = BIL sinθ
+* Effective Length (Leff): Uniform B → Straight vector start-to-end.
+* Closed Loop: F_net = 0 in uniform B.
+* Parallel Wires: F/L = (μ₀/4π) * (2I₁I₂ / d)    # iska derivation h F = BIL se.
+* Interaction: Same dir = Attract; Opp dir = Repel.
+* Perpendicular Wire: F = (μ₀ I₁ I₂ / 2π) * ln[(x+L)/x]
+* Ribbon (Width b): F = (μ₀ I₁ I₂ / 2πb) * ln[(a+b)/a]
+
+LAST-MINUTE SCAN
+- B_inf_wire = μ₀I/2πr
+- B_circle_center = μ₀I/2R
+- B_solenoid = μ₀nI
+- R = mv/qB; T = 2πm/qB
+- F_cond = BIL
+- F_wires = μ₀ 2I₁I₂ / 4πd (Attract if same dir)
+- B_axis = 0 for straight wires.
+- Work done by magnetic force on charge = 0.

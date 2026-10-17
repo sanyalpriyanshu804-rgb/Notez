@@ -1,0 +1,146 @@
+COMPLETE REVISION SHEET
+
+1. ELECTROSTATIC POTENTIAL ENERGY (U)
+- Concept: Energy of a system, not a single charge. Conservative nature of electrostatic forces allows energy storage.
+- Fundamental Definition: Change in potential energy ΔU = Uf - Ui = -Wint (negative of work done by internal electrostatic forces).
+- ⭐ Work Done by External Agent: Wext = ΔU (Condition: ΔKE = 0, moved slowly).
+- Potential Energy of 2 Point Charges: U = kq₁q₂/r
+- 📌 Assumption: U = 0 at r = ∞.
+- 📌 Sign Convention: Use actual signs of charges. (+) U = Repulsive system; (-) U = Attractive (Bound) system.
+- System of n Charges: Sum of interaction energies of all pairs (ⁿC₂ pairs).
+- 💡 Example (3 charges): Usys = k(q₁q₂/r₁₂ + q₁q₃/r₁₃ + q₂q₃/r₂₃).
+- Equilibrium: Systems naturally move toward minimum potential energy states.
+
+2. ELECTRIC POTENTIAL (V)    # derivation h iska, V = W/q
+- Concept: Property of a point in space created by source charge. Scalar tool to avoid vector calculations.
+- Definition: V = U/q. Work done per unit positive charge to bring it from ∞ to a point.
+- Relation between E and V: ΔV = Vf - Vi = -∫ E . dr    # iska derivation @ photo
+- 📌 Directional Property: Electric field (E) always points in the direction of decreasing potential.
+- Potential due to Point Charge: V = kq/r
+# potential is the property of the location
+# electric force is conservative, therefore electric potential does not depend on the path it depends only on the initial point (infinity) and final point (that point)
+
+3. POTENTIAL FOR STANDARD GEOMETRIES
+- Finite Charged Rod (Length L): V = (kQ/L) ln[(a+L)/a] (a = distance from end).
+- ⭐ Ring (Center): V = kQ/R (Distance R is constant for all charge elements).
+- ⭐ Ring (Axial Point): V = kQ / √(R² + x²).
+- Uniformly Charged Disc (Axial): V = (σ/2ε₀) [√(R² + x²) - x] OR V = (σ/2ε₀) (1 - cosθ) √(R² + x²).
+- ⭐ Thin Spherical Shell (Hollow):
+  - Inside (r < R): V = kQ/R (Constant everywhere inside).
+  - Outside (r ≥ R): V = kQ/r.
+- ⭐ Solid Non-Conducting Sphere:
+  - Inside (r < R): V = [kQ / (2R³)] (3R² - r²) (The "Chuudail Formula").
+  - 📌 Center (r = 0): Vc = 1.5 x Vsurface = 3kQ / 2R.
+  - Outside: V = kQ/r.
+- Infinite Long Wire: Va - Vb = 2kλ ln(Rb/Ra).
+
+4. ELECTRIC DIPOLE
+- Definition: Two equal/opposite charges (±q) separated by small distance d.
+- ⭐ Dipole Moment (p): p = q . d (Vector direction: -q to +q).
+- Electric Field (Short Dipole):
+      - Axial: E = 2kp / r³ (parallel to p).
+      - Equatorial: E = -kp / r³ (anti-parallel to p).
+      - General Point: E_net = (kp / r³) √ (1 + 3 cos²θ).
+- ⭐ Potential due to Dipole: V = (kp cosθ) / r² = k(p . r) / r³.
+- Dipole in Uniform External Field:
+  - Net Force: Fnet = 0.
+  - ⭐ Torque: τ = p x E = pE sinθ.
+  - ⭐ Potential Energy: U = -p . E = -pE cosθ.
+  - Work in Rotation: Wext = pE (cosθ₁ - cosθ₂).
+- 📌 Stable Equilibrium: θ = 0° (p || E). U is min, τ = 0.
+- 📌 Unstable Equilibrium: θ = 180° (p anti-|| E). U is max, τ = 0.
+- 💡 Oscillation: Small displacement from stable equilibrium leads to Angular SHM.
+  - Time Period: T = 2π √ (I / pE) (I = moment of inertia).
+- ⚠️ Non-Uniform Field/Interaction: Calculate force using F = -dU/dr after finding U.
+
+5. ELECTROSTATICS OF CONDUCTORS
+- Electric Field Inside: E = 0 inside the material.
+- Net Charge: Excess charge resides only on the outer surface.
+- Potential: Entire conductor (interior + surface) is at the same potential (Equipotential).
+- Field Lines: Always hit/leave surface perpendicularly.
+- Surface Charge Density (σ): σ ∝ 1/R. Charge accumulates at sharp points (small radius).
+- 📌 Connections: When two bodies connect, charge flows until potentials (V) are equal.
+- 📌 Concentric Shells: If an inner conductor is connected to an outer one, all inner charge flows to the outer surface.
+- ⭐ Parallel Plate Distribution: Q_outer_surface = (Σ Qi) / 2 (Half of total charge on each outermost face).
+
+Properties of equipotential surface -
+a) Equipotential surface has same potential at every point.
+b) Work done on moving a charge on a equipotential surface from one point to another is zero.
+c) Electric field lines are perpendicular to equipotential surface.
+d) Two equipotential surfaces do not intersect each other because at one point two different values of potential is not possible.
+e) Equipotential surfaces are closer in stronger electric field and farther apart in weak electric field.
+
+6. SELF-POTENTIAL ENERGY (U_self)    # not in boards
+- Definition: Energy required to assemble a system from scratch (bringing infinitesimal dq from ∞).
+- Point Charge: U_self = 0.
+- ⭐ Hollow Shell / Conducting Sphere: U_self = kQ² / 2R = Q² / (8πε₀R).
+  - Represents energy stored in E-field from r = R to r = ∞.
+- ⭐ Solid Non-Conducting Sphere: U_self = 3/5 (kQ² / R).
+  - Energy is higher because charge is packed throughout volume.
+- 💡 Rule of Thumb: Use U_self only if the size/shape/geometry of a single body changes.
+
+- ⭐ N-Drops Problem (Merging drops):
+  - Charge: Q = Nq.
+  - Volume/Radius: R = N^(¹/³) r.
+  - Energy Change: ΔU = U_final - (N x U_initial_per_drop).
+
+7. PROBLEM SOLVING TECHNIQUES
+- Mechanical Energy Conservation: Use KEi + Ui = KEf + Uf for moving charges.
+- 💡 Shell "Setting" Method: Start from innermost charge, place opposite charge on facing surfaces to maintain E = 0 inside material.
+- 📌 Earthing: Earthing a conductor makes its potential zero (V = 0), not necessarily its charge.
+
+--------------------------------------------------------------------------------
+
+LAST-MINUTE REVISION
+
+- Change in U: ΔU = -W_electrostatic.
+- W_external: Wext = ΔU (if slow).
+- Point Charge V: kq/r.
+- Shell Potential: Inside is constant (kQ/R).
+- Solid Sphere Center: V = 1.5 x V_surface.
+- Dipole p: qd (- to +).
+- Dipole axial E: 2kp/r³.
+- Dipole equatorial E: -kp/r³.
+- Dipole U: -pE cosθ.
+- Dipole Torque: pE sinθ.
+- Dipole SHM: T = 2π √ (I/pE).
+- Self Energy (Shell): kQ²/2R.
+- Self Energy (Solid): 0.6 kQ²/R.
+- Earthing: V = 0.
+- Parallel Plates: Q_outer = (total charge)/2.
+- Charge flow: Continues until potentials are equal.
+
+--------------------------------------------------------------------------------
+
+COMMON TRAPS
+
+- ⚠️ Potentials in Medium: Remember that K (dielectric) reduces potential; divide by K.
+- ⚠️ Sign of Charge: NEVER forget to put the (+) or (-) sign of q in potential/potential energy formulas.
+- ⚠️ Shell Potential: Many mistakenly think V = 0 inside a hollow shell. Field is 0, but Potential is constant (kQ/R).
+- ⚠️ Dipole Force: F = 0 only in UNIFORM fields. If field is non-uniform, F ≠ 0.
+- ⚠️ Earthing vs Charge: Earthing makes V = 0. The conductor can still hold charge if other charges are nearby.
+- ⚠️ Energy Calculation: Total energy is the sum of ALL individual U_self and ALL U_interaction pairs.
+- ⚠️ Work Done: Check if question asks for work by "Electric Field" ( -ΔU ) or "External Agent" ( ΔU ).
+- ⚠️ Dipole Direction: p is always from negative charge to positive charge.
+
+--------------------------------------------------------------------------------
+
+ULTRA-QUICK SCAN
+
+- V = U/q = work/charge.
+- E = -dV/dr (E points to low V).
+- Shell V: Inside = Surface.
+- Center Solid Sphere V: 1.5 x Surface.
+- Dipole V: kp cosθ / r².
+- Dipole Axial E: 2kp/r³.
+- Dipole Equi E: -kp/r³.
+- Torque: pE sinθ.
+- U_dipole: -pE cosθ.
+- Dipole SHM: 2π√(I/pE).
+- Conductor Interior: E = 0, V = Constant.
+- σ ∝ 1/R (Sharp points).
+- U_self (Shell): 0.5 kQ²/R.
+- U_self (Solid): 0.6 kQ²/R.
+- N-Drops: R = N¹/³ r; Q = Nq.
+- Connect conductors: V becomes equal.
+- Outermost Plate charge: (Σ Q)/2.

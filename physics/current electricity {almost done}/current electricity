@@ -1,0 +1,163 @@
+COMPLETE REVISION SHEET: CURRENT ELECTRICITY
+
+1. FUNDAMENTALS OF ELECTRIC CURRENT (I)
+- Definition: Rate of flow of charge through a cross-section.
+- ⭐ Instantaneous Current: I = dQ/dt (Slope of Q-t graph).
+- ⭐ Average Current: I_avg = ΔQ/ΔT = ∫(I)dt / ∫dt.
+- Scalar Nature: Algebraic sum (I_net = I₁ + I₂); does not follow vector addition.
+- Graphical Interpretation:
+      Area under I-t graph = Total charge (ΔQ) flown.
+      Slope of Q-t graph = Instantaneous current (I).
+- Units: Ampere (A). 1 A = 1 C/s.
+
+2. MICROSCOPIC VIEW: DRIFT VELOCITY AND OHM'S LAW
+- Carrier Density (n): Number of free electrons per unit volume (n = N_free / Volume).
+- Random vs. Drift:
+  Thermal speed (10⁵ to 10⁶ m/s) results in zero average velocity.
+  Drift velocity (v_d) is the net average velocity opposite to Electric Field (E).
+- ⭐ Drift Velocity: v_d = (eEτ / m).
+  e = 1.6 x 10⁻¹⁹ C; m = electron mass (9.1 x 10⁻³¹ kg); τ = relaxation time (time between collisions).
+- ⭐ Mobility (μ): v_d attained per unit Electric Field.
+  μ = v_d / E = eτ / m. Unit: m²V⁻¹s⁻¹.
+# mobility is independent of electric field or potential difference.
+- 💡 v_d Relation to Fluids: Similar to continuity equation (A₁v₁ = A₂v₂). v_d ∝ 1/Area.
+
+3. RESISTANCE (R) AND RESISTIVITY (ρ)
+Ohm's Law : Acc. to this law, current flowing in a conductor is directly proportional to the potential difference applied across it's end provided that physical condition like temperature should remain constant.
+- ⭐ Microscopic Ohm's Law (Derivation): I = neA(eEτ/m) → I = [ne²Aτ / mL]V.
+- ⭐ Resistance: R = (m / ne²τ) (L / A).
+  R = ρL/A. Unit: Ohm (Ω).
+  Depends on geometry (L, A), temperature, and material.
+- ⭐ Resistivity: ρ = m / ne²τ.
+  Unit: Ω-m.
+  Independent of geometry (L, A). Depends only on material and temperature.
+- 📌 Conductance (G) = 1/R. Unit: Siemens (S) or Ω⁻¹.
+- 📌 Conductivity (σ) = 1/ρ. Unit: S/m.
+- ⭐ Stretched Wire Logic:
+  📌 Condition: Volume (V = AL) remains constant.
+  💡 Shortcut: If length L becomes nL, Area becomes A/n. R_new = n²R_old.
+
+4. TEMPERATURE DEPENDENCE
+- ⭐ Conductors: T ↑ → thermal vibrations ↑ → collisions ↑ → τ ↓ → ρ ↑ → R ↑.
+- ⭐ Formula: R = R₀(1 + αΔT).
+  α = Thermal coefficient (ΔR / (R₀ΔT)). Positive for conductors.
+- ⭐ Semiconductors: T ↑ → electron-hole pairs ↑ → n ↑ (dominates over τ decrease) → R ↓.    # same for electrolyte
+- Graphs:
+  Ohmic Resistance: V-I graph is straight line (Slope = R).
+  Non-Ohmic (Transistors/Diodes): V-I graph is curved.
+
+5. GEOMETRY-BASED CALCULUS APPLICATIONS (ADVANCED)
+- 📌 Condition: Isotropic (ρ is constant); Anisotropic (ρ varies).
+- ⭐ Hollow Concentric Spheres (radial flow, a to b):
+  dR = ρ dr / (4πr²) → R = (ρ / 4π)(1/a - 1/b).
+- ⭐ Concentric Cylinders (radial flow, a to b, length L):
+  dR = ρ dr / (2πrL) → R = (ρ / 2πL) ln(b/a).
+
+6. CURRENT DENSITY (J) AND VECTOR OHM'S LAW
+- ⭐ Current Density (J): Current per unit area (J = I/A).
+  Vector quantity in direction of current. I = ∫ J . dA.
+
+- ⭐ Vector Ohm's Law: J = σE.    # for I = neavd
+  J = (ne²τ / m)E. σ = conductivity.
+
+7. RESISTOR COLOR CODING
+- ⭐ Sequence: B B R O Y Great Britain Very Good Wife.
+- Numbers: Black(0), Brown(1), Red(2), Orange(3), Yellow(4), Green(5), Blue(6), Violet(7), Gray(8), White(9).
+- ⭐ Calculation: R = [Digit1][Digit2] x 10^[Multiplier] ± Tolerance.
+- Tolerance: Gold (±5%), Silver (±10%), No Color (±20%).
+
+8. KIRCHHOFF'S LAWS
+- ⭐ Kirchhoff's Current Law (KCL/Junction Law): ΣI_in = ΣI_out.
+  📌 Logic: Conservation of Charge.
+- ⭐ Kirchhoff's Voltage Law (KVL/Loop Law): ΣΔV = 0 in a closed loop.
+  📌 Logic: Conservation of Energy.
+- ⚠️ Sign Conventions:
+  Batteries: Exit (+ terminal) = +E; Exit (- terminal) = -E.
+  Resistors: Path with current = -IR; Path against current = +IR.
+
+9. ADVANCED CIRCUIT TECHNIQUES
+- 💡 Nodal Analysis:
+  1. Pick reference node (0V).
+  2. Assign unknown potential 'x' to junctions.
+  3. Apply KCL: (x - V₁)/R₁ + (x - V₂)/R₂ + ... = 0.
+- ⭐ Symmetry - Folding (Parallel to terminals): Overlapping resistors are in parallel (R → R/2).
+- ⭐ Symmetry - Perpendicular (Perpendicular to terminals): Detach junctions on the symmetry line where no current crosses.
+- ⭐ Cube Formulas (Each edge = R):
+  Between Near Corners (Edge): R_eq = 7/12 R.
+  Across Face Diagonal: R_eq = 3/4 R.
+  Across Body Diagonal: R_eq = 5/6 R.
+
+10. CELLS AND BATTERIES
+- EMF (E): Potential across open circuit (I=0). Depends on electrolyte/electrodes.
+- Internal Resistance (r): Resistance of electrolyte.
+  📌 r ↑ if distance between electrodes ↑ or concentration ↑.
+  📌 r ↓ if area of plates ↑ or Temperature ↑.
+- ⭐ Terminal Voltage (V):
+  Discharging: V = E - Ir.
+  Charging: V = E + Ir.
+- ⭐ Mixed Grouping (n in series, m rows):
+  I = nE / (R + nr/m).
+  💡 Max Power Condition: External R = Total Internal Resistance (nr/m).
+
+11. MEASURING INSTRUMENTS
+- ⭐ Wheatstone Bridge (WSB): Balanced if R₁/R₂ = R₃/R₄. I_galvanometer = 0.
+- ⭐ Meter Bridge: Practical WSB. R/S = L / (100 - L). (L = null point from left).
+- ⭐ Potentiometer (Ideal Voltmeter): Zero current drawn at null point.
+  Potential Gradient (k): k = V_wire / L_wire.
+  EMF Comparison: E₁/E₂ = l₁/l₂.
+  Internal Resistance (r): r = R(l₁/l₂ - 1).
+
+12. ELECTRICAL POWER AND HEATING
+- ⭐ Power (P): P = VI = I²R = V²/R.
+- Joule's Heating (H): H = I²Rt.
+- ⭐ Bulb Ratings: R = (V_rated)² / P_rated.
+  📌 Actual Power (P_act) depends on actual circuit V.
+- Brightness Rules:
+  💡 Parallel: High rated wattage (low R) = Brighter.
+  💡 Series: Low rated wattage (high R) = Brighter.
+
+--------------------------------------------------------------------------------
+
+LAST-MINUTE REVISION
+
+- ⭐ v_d = eEτ/m = I / neA.
+- ⭐ R = ρL/A; ρ = m/ne²τ (Independent of L, A).
+- ⭐ Stretching wire: L → nL means R → n²R.
+- ⭐ Temp: R = R₀(1 + αΔT). α is (+) for conductors, (-) for semiconductors.
+- ⭐ Cube R_eq: 7/12 (edge), 3/4 (face), 5/6 (body).
+- ⭐ Balanced WSB: R₁/R₂ = R₃/R₄.
+- ⭐ Max Power Transfer: R_ext = r_int_net.
+- ⭐ Potentiometer: E ∝ l; k = V_wire/L_wire.
+- ⭐ Bulb Brightness: Brightness ∝ Actual Power Consumed.
+
+--------------------------------------------------------------------------------
+
+COMMON TRAPS
+
+- ⚠️ Scalar Nature: Current has direction but is a scalar (it doesn't use vector addition).
+- ⚠️ Resistance vs Resistivity: Resistivity does NOT change when wire is stretched; only Resistance changes.
+- ⚠️ Potentiometer V: V_wire is not the EMF of the driver battery if there is internal resistance or a series rheostat.
+- ⚠️ Series Bulbs: A 60W bulb glows brighter than a 100W bulb in series (because it has higher resistance).
+- ⚠️ Ideal vs Real: Ideal ammeter (R=0); Ideal voltmeter (R=∞).
+- ⚠️ Short Circuit: Zero-resistance wire in parallel with a resistor "kills" that resistor.
+- ⚠️ Mass: In v_d = eEτ/m, 'm' is the mass of the electron, not the metal.
+
+--------------------------------------------------------------------------------
+
+ULTRA-QUICK SCAN
+
+- I = dq/dt; Q = ∫Idt.
+- v_d = I/neA.
+- J = I/A = σE.
+- R = ρL/A.
+- L → nL ⇒ R → n²R.
+- α = ΔR / (R₀ΔT).
+- KCL (Charge), KVL (Energy).
+- WSB: R₁/R₂ = R₃/R₄.
+- Meter Bridge: R/S = l/(100-l).
+- Discharging: V = E - Ir.
+- Charging: V = E + Ir.
+- Max Power: R = r_eq.
+- Potentiometer: r = R(l₁/l₂ - 1).
+- Power: V²/R; Heat: I²Rt.
+- Color Code: BB ROY GB VGW (0-9).

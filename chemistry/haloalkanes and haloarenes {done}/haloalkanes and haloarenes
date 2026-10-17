@@ -1,0 +1,236 @@
+COMPLETE REVISION SHEET
+
+1. INTRODUCTION AND CLASSIFICATION
+- Haloalkanes (Alkyl Halides): Hydrogen in aliphatic hydrocarbon replaced by halogen. Halogen on sp³ carbon.
+- Haloarenes (Aryl Halides): Hydrogen in aromatic hydrocarbon replaced by halogen. Halogen directly on sp² carbon of aromatic ring.
+
+CLASSIFICATION
+a) No. of X atoms :
+- Mono, Di, Poly-halides: Based on 1, 2, or 3+ halogen atoms.
+- Geminal Dihalides (Gem-dihalides): Both halogens on same carbon. Common name: Alkylidene halides. Example: CH₃CHCl₂ (Ethylidene chloride).
+- Vicinal Dihalides (Vic-dihalides): Halogens on adjacent carbons. Common name: Alkylene dihalides. Example: CH₂BrCH₂Br (Ethylene dibromide).
+
+b) C(sp3) - X bond :
+- Alkyl Halides: Classified by carbon degree (1°, 2°, 3°).
+- Allylic Halides: Halogen on sp³ carbon adjacent to C=C bond.
+- Benzylic Halides: Halogen on sp³ carbon adjacent to benzene ring.
+
+c) C(sp2) - X bond :
+- Vinylic Halides: Halogen directly on sp² carbon of C=C bond.
+- Aryl Halides: Halogen directly on sp² carbon of aromatic ring.
+- 📌 Reactivity Insight: sp² C-X bonds (Aryl/Vinyl) are shorter, stronger, and have partial double bond character due to resonance; less reactive to NSR.
+- ⭐ Stability: Benzylic/Allylic halides are highly reactive toward SN1/SN2 due to resonance stabilization of transition states/carbocations.
+
+2. NATURE OF C-X BOND
+- Polar Covalent Bond: Electronegativity difference (Halogen δ⁻, Carbon δ⁺). Carbon is electrophilic.
+- Periodic Trends down Group (F to I): Halogen size increases, electronegativity decreases.
+- ⭐ Bond Length: C-F < C-Cl < C-Br < C-I (Directly ∝ size).
+- ⭐ Bond Enthalpy: C-F > C-Cl > C-Br > C-I (Inversely ∝ bond length).
+- ⭐ Dipole Moment (μ): μ = q × d (charge × distance).
+- ⚠️ JEE Exception: μ Order: CH₃Cl > CH₃F > CH₃Br > CH₃I. Bond length of C-Cl is significantly larger than C-F, compensating for lower charge.
+
+3. METHODS OF PREPARATION (MOP)
+A. FROM ALCOHOLS
+a) Reaction with HX: R-OH + HX → R-X + H₂O.
+- 📌 Mechanism: SN1 for 3° and 2°.
+Step 1: Protonation to Oxonium ion. Step 2 (RDS): Carbocation formation. Step 3: Nucleophile attack.
+- ⭐ Reactivity of Alcohols: 3° > 2° > 1° (∝ carbocation stability).
+- ⭐ Reactivity of HX: HI > HBr > HCl (Inversely ∝ bond strength).
+- 💡 Lucas Test: Conc. HCl + Anhyd. ZnCl₂. 3° = Immediate white turbidity; 2° = 5-10 mins; 1° = Turbidity only on heating.
+- ⚠️ Rearrangement: Carbocations formed with HX allow hydride/methyl shifts and ring expansions.
+- ⚠️ The HI Trap: NaI + H₂SO₄ fails because H₂SO₄ oxidizes HI to I₂. Use non-oxidizing H₃PO₄ instead.
+- ⚠️ Phenol: Cannot prepare haloarenes from Phenol + HX due to resonance (partial double bond character).
+# 1° aur 2° k sath anhyd. ZnCl₂ lenge par 3° k sath nhi, vo waise hi bahut reactive h.
+
+b) Reaction with Phosphorus Halides:
+  - 3 R-OH + PX₃ → 3 R-X + H₃PO₃. Mechanism: SN2. No carbocation = No rearrangement. Stereochemistry: Walden Inversion.
+  - R-OH + PCl₅ → R-Cl + POCl₃ + HCl.
+
+c) Darzen's Process (Reaction with SOCl₂):
+  - R-OH + SOCl₂ → R-Cl + SO₂ + HCl.
+  - 💡 Best Method: Byproducts (SO₂, HCl) are gases and escape, leaving pure product.
+  - 📌 SNi Mechanism: SOCl₂ alone results in Retention of configuration.
+  - 📌 SN2 Mechanism: SOCl₂ + Pyridine results in Inversion of configuration (Pyridine releases free Cl⁻).
+
+B. FROM ALKANES
+- Free Radical Halogenation: RH + X₂ (UV light/heat) → RX + HX.
+- ⚠️ Product: Often gives mixtures (mono, di, tri, poly).
+- Reactivity :
+            3° H > 2° H > 1° H (∝ radical stability).
+            F₂ (explosive) > Cl₂ > Br₂ > I₂ (reversible).
+- 📌 Iodination: Needs oxidizing agent (HIO₃/HNO₃) to destroy HI and prevent backward reaction.
+
+C. FROM ALKENES/ALKYNES
+a) Addition of HX (Hydrohalogenation):
+  - Markovnikov's Rule: X⁻ attaches to carbon with fewer H atoms.
+  - 📌 Intermediate: Carbocation (Rearrangements possible).
+- Peroxide Effect (Kharasch Effect): HBr + Peroxide → Anti-Markovnikov addition.
+  - ⚠️ Condition: ONLY for HBr. Mechanism: Free Radical Addition (No carbocation = No rearrangement).
+
+b) Addition of X₂ (Halogenation):    # catalyst CCl₄
+  - X₂ + CCl₄ → Vicinal Dihalide.
+  - Mechanism: Anti-addition via Cyclic Halonium Ion. No rearrangement.
+  - 💡 Test for Unsaturation: Decolorization of reddish-brown Br₂/CCl₄.
+- Allylic/Benzylic Substitution:
+  - 💡 Reagent: NBS (N-Bromosuccinimide) or X₂ at high temp (≈ 700 K). Mechanism: Free Radical.
+
+D. HALOGEN EXCHANGE
+a) Finkelstein Reaction: R-Cl/Br + NaI (Dry Acetone) → R-I + NaX.
+  - 💡 Acetone used because NaX precipitates, shifting equilibrium forward.
+b) Swarts Reaction: R-Cl/Br + AgF/Hg₂F₂/CoF₂/SbF₃ → R-F + AgX.
+
+E. FROM DIAZONIUM SALTS
+- Diazotization: Aniline + NaNO₂ + HCl (0-5 °C) → Benzene diazonium chloride (C₆H₅N₂⁺Cl⁻).
+a) ⭐ Sandmeyer Reaction: C₆H₅N₂⁺Cl⁻ + Cu₂X₂/HX → Aryl-X + N₂ (X = Cl, Br).
+b) Gattermann Reaction: Use Cu powder + HX instead of cuprous salts.
+            "Sandmeyer yield is better."
+- KI Reaction: Warm diazonium salt with KI to get Aryl Iodide. No catalyst needed.
+c) Balz-Schiemann Reaction: ☢
+            C₆H₅N₂⁺Cl⁻ + HBF₄ → C₆H₅N₂⁺BF₄⁻ (Heat) → Fluorobenzene + BF₃ + N₂.
+
+F. HUNSDIECKER REACTION ☢
+- R-COOAg + Br₂ (CCl₄/Heat) → R-Br + AgBr + CO₂.
+- Mechanism: Free Radical.
+- ⚠️ Step-down reaction: Product has one less carbon than starting silver salt.
+- ⚠️ Exception: Silver salt + I₂ → Ester (Birnbaum-Simonini reaction).
+
+4. PHYSICAL PROPERTIES
+- Intermolecular Forces: Dipole-dipole interactions (Van der Waals).
+- ⭐ Boiling Point (BP): BP ∝ Mass, BP ∝ Surface Area, BP ∝ 1/Branching.
+  - Order (Same R): R-I > R-Br > R-Cl > R-F.
+  - Order (Methanes): CCl₄ > CHCl₃ > CH₂Cl₂ > CH₃Cl.
+- ⭐ Melting Point (MP): Para-isomer > Ortho ≈ Meta for dihalobenzenes. High symmetry of para fits better in crystal lattice.
+- ⭐ Density: Mass badta h volume se jyada.
+            Trend: RI > RBr > RCl > RF;  CCl₄ > CHCl₃ > CH₂Cl₂ > CH₃Cl.
+- Solubility: Slightly soluble in water (cannot form strong H-bonds); soluble in organic solvents.
+
+5. SOLVENTS ☢
+- Non-Polar (μ=0): CCl₄, CS₂, Benzene, Hexane.
+- Polar Protic Solvents (PPS): H bonded to F, O, or N (Water, Alcohols, NH₃). Solvate BOTH cations and anions. Favor SN1 by stabilizing carbocations.
+- Polar Aprotic Solvents (PAS): No H on F, O, N (DMSO, DMF, Acetone, CH₃CN). Solvate ONLY cations. Anions remain "naked" and highly reactive. Favor SN2.
+
+6. BASICITY AND NUCLEOPHILICITY ☢
+- Basicity: Affinity for H⁺ (Thermodynamic). Nucleophilicity: Rate of attack on carbon (Kinetic).
+- ⭐ Charge Factor: Anion > Neutral (OH⁻ > H₂O).
+- ⭐ Periodic Trend (Period): CH₃⁻ > NH₂⁻ > OH⁻ > F⁻ (Inversely ∝ Electronegativity).
+- ⭐ Periodic Trend (Group):
+  - In PPS (Water): I⁻ > Br⁻ > Cl⁻ > F⁻ (Small F⁻ is heavily solvated/hindered).
+  - In PAS (DMSO): F⁻ > Cl⁻ > Br⁻ > I⁻ (Anions are naked; follows electronegativity).
+- ⚠️ Steric Hindrance: Decreases nucleophilicity significantly. t-Butoxide is a strong base but poor nucleophile.
+- ⚠️ Resonance: Delocalized lone pairs (Phenoxide, Acetate) make poor nucleophiles.
+
+7. LEAVING GROUP ☢
+- ⭐ Fundamental Rule: Leaving Ability ∝ 1/Basicity. Weak bases = Good leaving groups.
+- ⭐ Order: I⁻ > Br⁻ > Cl⁻ > F⁻.
+- 💡 Neutral molecules (H₂O, NH₃) > Anions (OH⁻, NH₂⁻).
+- 💡 Best Leaving Groups: N₂ (gas), Sulfonates (Triflate, Mesylate), I⁻.
+
+8. CHEMICAL PROPERTIES
+
+A. NUCLEOPHILIC SUBSTITUTION RXN (NSR)
+a) SN2 MECHANISM
+- Bimolecular, Single-step, Concerted. Rate = k[RX][Nu].
+- Transition State: Pentavalent carbon. Back-side attack.
+- ⭐ Stereochemistry: 100% Walden Inversion.
+- ⭐ Reactivity: Methyl > 1° > 2° > 3° (∝ 1/Steric hindrance).
+- Favored by: Strong nucleophiles, PAS.
+
+b) SN1 MECHANISM
+- Unimolecular, Multi-step. Step 1 (RDS): Carbocation formation.
+- ⭐ Stereochemistry: Partial racemization (Inversion > Retention). Carbocation is planar.
+- ⭐ Reactivity: 3° > 2° > 1° (∝ carbocation stability). Allylic/Benzylic are very fast.
+- Favored by: Weak nucleophiles, PPS.
+- ⚠️ Rearrangement: Possible.
+
+c) AMBIDENT NUCLEOPHILES
+- KCN (Ionic) → R-CN (Nitrile). AgCN (Covalent) → R-NC (Isocyanide).
+- KNO₂ (Ionic) → R-ONO (Nitrite). AgNO₂ (Covalent) → R-NO₂ (Nitroalkane).
+
+B. ELIMINATION REACTIONS
+- Beta-elimination/Dehydrohalogenation: "Formation of alkenes."
+- E2 (Bimolecular): Concerted. Rate = k[RX][Base]. Order: 3° > 2° > 1° (∝ alkene stability). Requires Anti-periplanar geometry.
+- E1 (Unimolecular): Two-step via carbocation. Favored by weak bases + high temp. Order: 3° > 2° > 1°. Rearrangements possible.
+- E1cB: Via carbanion. Occurs with poor leaving groups (F⁻) and acidic β-H.
+- ⭐ Saytzeff Rule: More substituted alkene is major (small bases).
+- ⭐ Hofmann Rule: Less substituted alkene is major (bulky bases like t-BuO⁻ or poor LG like F⁻).
+- 💡 Sub vs Elim: High Temp + Strong/Bulky Base favors Elimination.
+
+C. REACTION WITH METALS
+- Grignard Reagent: R-X + Mg (Dry Ether) → R-MgX (Organometallic).
+  - 📌 Condition: Dry ether needed because R-MgX reacts instantly with acidic H (H₂O, ROH, NH₃) to form R-H.
+a) Wurtz Reaction: 2 RX + 2 Na (Dry Ether) → R-R + 2 NaX.
+  - ⚠️ Limitation: Symmetrical alkanes only. Methane cannot be prepared. 3° halides give Alkenes instead of dimers.
+- Fittig Reaction: 2 Aryl-X + Na → Biphenyl.
+- Wurtz-Fittig: Aryl-X + Alkyl-X + 2Na → Alkyl Benzene.
+
+9. CHEMICAL REACTIONS OF HALOARENES
+- ⭐ Low NSR Reactivity: Due to (1) Resonance (partial double bond), (2) sp² hybridized carbon, (3) Unstable phenyl cation, (4) Repulsion from π-cloud.
+a) Dow's Process: Chlorobenzene + NaOH (623 K, 300 atm) → Phenol.
+- 💡 EWG Effect: NO₂ groups at Ortho/Para positions increase NSR rate (Meta has no resonance boost).    # jitne NO₂ group lagaye temp. utna kam lena padega.
+- Benzyne Mechanism: Strong base (KNH₂) in liquid NH₃.
+- ESR: Halogens are Ortho/Para directing but Weakly Deactivating (due to -I > +M).
+
+10. POLYHALOGEN COMPOUNDS
+- Dichloromethane (CH₂Cl₂): Paint remover.
+- Chloroform (CHCl₃): Historically anesthetic; stored in dark bottles to prevent oxidation to Phosgene (COCl₂ - poisonous).
+- Carbon Tetrachloride (CCl₄): CFC feedstock, ozone depletion.
+- Freons (CFCs): CCl₂F₂ (Freon 12) - Refrigeration. Extremely stable.
+- DDT: Insecticide.
+- Tear Gas (Chloropicrin): CCl₃NO₂.
+
+--------------------------------------------------------------------------------
+
+LAST-MINUTE REVISION
+
+- ⚠️ Dipole Exception: CH₃Cl > CH₃F > CH₃Br > CH₃I.
+- 💡 Lucas Test: 3° immediate, 2° 5-10 min, 1° heat.
+- ⭐ Rearrangement: Alcohol + HX or SN1 reactions.
+- ⭐ Darzen's: SOCl₂ alone = Retention; SOCl₂ + Pyridine = Inversion.
+- 💡 unsaturation test: Br₂/CCl₄ (Red-brown to colorless).
+- 💡 Halogen Exchange: Finkelstein (NaI/Acetone → R-I), Swarts (AgF → R-F).
+- ⭐ NSR Mechanism: SN2 (Methyl > 1° > 2° > 3°), SN1 (3° > 2° > 1°).
+- ⭐ Nucleophile King: PPS = I⁻; PAS = F⁻.
+- ⭐ Elimination King: High temperature + Bulky Base.
+- ⭐ Silver salt + I₂ = Ester.
+- 📌 Benzyne intermediate needs KNH₂/Liquid NH₃.
+- 📌 Chloroform + O₂ + Light → COCl₂ (Phosgene).
+
+--------------------------------------------------------------------------------
+
+COMMON TRAPS
+
+- ⚠️ Confusing Allylic vs Vinylic: Allylic is sp³ C next to C=C; Vinylic is X directly on C=C.
+- ⚠️ Chlorobenzene is NOT benzylic: Benzylic needs an sp³ carbon bridge.
+- ⚠️ HX vs PX₃: HX forms carbocations (Rearrange!); PX₃ is SN2 (Invert, NO rearrange).
+- ⚠️ Peroxide Rule: ONLY for HBr. HCl/HI follow Markovnikov even with peroxide.
+- ⚠️ Silver Salt + I₂: It's NOT R-I, it is an ESTER.
+- ⚠️ Meta NO₂ in NSR: Does NOT stabilize the carbanion; rate boost is negligible compared to O/P.
+- ⚠️ Bridgehead halides: Inert to SN1, SN2, and Elimination (cannot be planar/back-side attack blocked).
+- ⚠️ SN1 Racemization: Never 100% racemic; inversion slightly predominates.
+
+--------------------------------------------------------------------------------
+
+ULTRA-QUICK SCAN
+
+- BP ∝ Mass, 1/Branching.
+- MP Para-symmetry.
+- Dipole: Cl > F.
+- Alcohol to RX: Lucas test (Turbidity).
+- SOCl₂: Best MOP (gaseous byproducts).
+- Markovnikov (HX) vs Anti-Mark (HBr/Peroxide).
+- NBS = Allylic Bromination.
+- Finkelstein (I), Swarts (F).
+- Sandmeyer (Cu₂X₂), Balz-Schiemann (F).
+- SN2: 1-step, Inversion, PAS.
+- SN1: 2-step, Racemize, PPS.
+- Elimination: High T, Saytzeff (Stable alkene).
+- Grignard: R-MgX (Needs Dry Ether).
+- Wurtz: R-R dimer.
+- Dow's Process: 623 K, 300 atm.
+- ESR: X is O/P directing + Deactivating.
+- Phosgene (COCl₂), DDT, Tear Gas (CCl₃NO₂).
+
+--------------------------------------------------------------------------------
+
+What type of nucleophilic substitution (SN1 or SN2) occurs in the hydrolysis of 2-Bromobutane to form ( ± )-Butan-2-ol ? Give reason.
+- SN1 hoga kyunki ±/racemization issi m hota h.

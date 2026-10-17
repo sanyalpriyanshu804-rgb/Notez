@@ -1,0 +1,125 @@
+COMPLETE REVISION SHEET
+
+1. FUNDAMENTALS OF ELECTROMAGNETIC INDUCTION (EMI)
+- Definition: Generation of EMF and current in a conductor by changing magnetic environment or flux link.
+- Physical Meaning: Manipulation of magnetic fields to obtain electricity.
+- Core Observation: Current is only observed during a change in B, Area, or Orientation.
+- Nature loves symmetry: Current creates B-field, so changing B-field creates current.
+
+2. MAGNETIC FLUX (Φᵦ)
+- Definition: Scalar quantity representing the total number of field lines piercing a surface.
+- Formula (Uniform): Φᵦ = B ⋅ A = BA cos θ.
+- Formula (General): Φᵦ = ∫B dA (Use for non-uniform fields).
+- Variables: B = Magnetic field; A = Area vector; θ = Angle between B and NORMAL to the plane.
+- Units: Weber (Wb) or Tesla-meter² (T.m²).
+- Dimensions: [ML²T⁻²A⁻¹].
+- 📌 Condition: θ is ALWAYS measured from the normal to the surface, not the surface itself.
+- 💡 Shortcut: Total magnetic flux through any closed surface is zero (no monopoles).
+- 💡 Shared Flux Principle: If field exists only in an inner region, flux through any larger outer loop is identical to flux through inner region.
+
+3. FARADAY'S AND LENZ'S LAWS
+- Faraday's Law: Induced EMF magnitude = rate of change of magnetic flux.
+- ⭐ Formula: e = -dΦ/dt (For N turns: e = -N dΦ/dt).
+- 📌 Condition: EMF exists even in insulators/vacuum; current requires a closed path.
+- Lenz's Law: Direction of induced current opposes the change in flux that produced it.
+- Intuition Rule: If flux ↑, loop opposes; if flux ↓, loop supports.
+- Conservation of Energy: Mechanical work done against magnetic opposition converts to electrical energy.
+- ⭐ Induced Current: i = e / R = (1/R) (dΦ/dt).
+- ⭐ Induced Charge: q = ΔΦ / R.
+- 📌 Condition: Induced charge (q) is independent of time.
+- ⭐ Power Dissipated: P = e² / R.
+
+4. MOTIONAL EMF
+- Translational EMF: A moving rod acts as a battery due to Lorentz force on free electrons.
+- ⭐ Formula: e = BvL.    # iska derivation rail wale se
+- 📌 Condition: v, B, and L must be mutually perpendicular.
+- Vector Form: e = (v x B) ⋅ L.
+- 📌 Sign Convention: (v x B) direction indicates the high-potential (positive) terminal.
+- 💡 Effective Length (Leff): In uniform B, shape is irrelevant; use displacement vector between endpoints.
+- Rotational EMF: Rod of length L rotating about one end at angular speed ω.
+- ⭐ Formula: e = 1/2 BωL².    # e = BLv ko integrate karke
+- General Rotational Point: PD between points x₁ and x₂ = 1/2 Bω(x₂² - x₁²).
+- AC Generator (Nawab Formula): e = NABω sin(ωt).
+- Max EMF: e_max = NABω (when coil plane is parallel to B).
+
+5. DYNAMICS OF RODS ON RAILS
+- Retarding Force: F = B²L²v / R (opposes motion).
+- Acceleration: a = -B²L²v / mR.
+- ⭐ Velocity Decay: v = v₀ exp(-(B²L²/mR)t).
+- ⭐ Terminal Velocity: v_terminal = mgR / (B²L²) (for rod falling under gravity).
+- 📌 Condition: mg = IlB at terminal velocity.
+
+6. INDUCTANCE
+- General Definition: Property to oppose changes in current.
+- Self Inductance (L): Φ_total = LI.
+- ⭐ Self EMF (Back EMF): e = -L(dI/dt).
+- ⭐ L of Solenoid: L = μ₀n²Al = μ₀N²A / l.
+- 📌 Condition: If wound on iron core, L increases by factor μᵣ.
+Unit : Henry
+- Mutual Inductance (M): Φ₂ = MI₁.
+- Reciprocity: M₁₂ = M₂₁.
+- ⭐ Mutual EMF: e₂ = -M(dI₁/dt).
+- ⭐ Energy Stored: U = 1/2 LI² (stored in magnetic field).    # iska derivation h
+- Series Combination: L_eq = L₁ + L₂ ± 2M (+ for same flux sense, - for opposite).
+- Parallel Combination (no M): 1/L_eq = 1/L₁ + 1/L₂.
+
+7. RL CIRCUITS (TRANSIENT ANALYSIS)
+- Growth of Current: i = i₀(1 - e⁻ᵗ/ᶿ).
+- Decay of Current: i = i₀ e⁻ᵗ/ᶿ.
+- ⭐ Time Constant: ᶿ = L / R.
+- Steady State Current: i₀ = E / R.
+- 📌 Condition: t = 0, inductor = open circuit; t = ∞, inductor = short circuit.
+- 💡 Shortcut: Current reaches 63% max in 1ᶿ during growth; drops to 37% in 1ᶿ during decay.
+- 💡 Shortcut: Time to reach half-max current: t = ᶿ ln(2).
+
+8. INDUCED ELECTRIC FIELDS
+- Origin: Produced by time-varying magnetic fields (dB/dt).
+- Properties: Non-conservative, form continuous closed loops, no source charges.
+- Line Integral: ∮E ⋅ dl = -dΦ/dt.
+- Cylindrical Region (Radius R):
+  - ⭐ Inside (r < R): E = (r/2)(dB/dt).
+  - ⭐ Outside (r > R): E = (R²/2r)(dB/dt).
+  - 📌 Condition: E is tangential to the circular path.
+- ⚠️ Trap: Electric potential (V) does NOT exist for induced E-fields.
+- ⚠️ Trap: EMF on a chord AB = (Area of triangle OAB) * (dB/dt).
+
+9. EDDY CURRENTS
+- Definition: Circular current loops induced in solid metal conductors.
+- Effect: Opposes motion (Magnetic Damping) and generates heat.
+- Reduction: Use laminated cores or cut slots in metal plates.
+- 💡 Shortcut: If magnet falls through conducting ring, a < g; if through broken ring, a = g.
+
+LAST-MINUTE REVISION
+- e = -dΦ/dt.
+- e = BvL (Translational).
+- e = 1/2 BωL² (Rotational).
+- e_max = NABω (Generator).
+- q = ΔΦ / R (Time independent).
+- L_solenoid = μ₀n²Al.
+- U = 1/2 LI².
+- ᶿ = L/R (Time constant).
+- Inside E-field: E = (r/2)(dB/dt).
+- μ₀/4π = 10⁻⁷.
+
+COMMON TRAPS
+- ⚠️ Flux vs EMF: Constant flux (even if 1000T) induces 0 EMF. Only change induces EMF.
+- ⚠️ Area Vector: Always use the angle between B and the Normal, not the plane surface.
+- ⚠️ Insulator Trap: EMF is still induced in wooden/plastic loops, but current is 0.
+- ⚠️ Broken Ring: Magnet falling through broken ring has a = g (no current loop).
+- ⚠️ Rod Resistance: For i = e/R, use total resistance (R_external + R_rod).
+- ⚠️ Curve Wire: For uniform B, use displacement length Leff, not arc length.
+- ⚠️ Non-Conservative: PD and Potential are undefined for induced E-fields.
+
+ULTRA-QUICK SCAN
+- Flux Φᵦ = BA cos θ (Wb).
+- Faraday's Law: e = rate of flux change.
+- Lenz's Law: Oppose the change (Energy conservation).
+- Motional PD: BvL.
+- Rotational PD: 1/2 BωL².
+- Self Inductance: Φ = LI.
+- RL Time Constant: L/R.
+- t=0: Inductor resists change (Open).
+- t=∞: Inductor acts as wire (Short).
+- Eddy Currents: Heat loss, reduced by lamination.
+- Induced E-field: Non-conservative, closed loops.
+- Fall through ring: a < g.

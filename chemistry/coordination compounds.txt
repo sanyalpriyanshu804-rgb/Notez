@@ -1,0 +1,213 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COORDINATION COMPOUNDS - HIGH-YIELD EXAM REVISION SHEET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ADDITION COMPOUNDS: DOUBLE SALT VS COORDINATION COMPLEX
+• Double Salt: Stable in solid state, but dissociates completely (100%) into simple constituent ions in aqueous solution.
+  - Examples: Carnallite (KCl·MgCl₂·6H₂O), Potash Alum (K₂SO₄·Al₂(SO₄)₃·24H₂O).
+  - Gives positive tests for all constituent ions; loses identity in solution.
+• Coordination Complex: Retains its identity in aqueous solution; does not dissociate completely into simple ions.
+  - Example: K₄[Fe(CN)₆] → 4K⁺ + [Fe(CN)₆]⁴⁻ (Does NOT give tests for free Fe²⁺ or CN⁻ ions).
+
+2. TERMINOLOGY
+• Central Metal (CM): Metal atom/ion bound to fixed number of ligands in a definite geometry.
+• Ligand: Neutral molecule or ion bound to CM by donating electron pair(s) via coordinate bond(s).
+• Coordination number: The number of coordination bonds formed by the CM with ligangs.
+• Homolyptic and Heterolyptic complexes: Complexes in which CM is bonded to only one kind of ligands, are known as homoleptic otherwise heterolyptic.
+
+CLASSIFICATION OF LIGANDS
+• Charge-Based Classification:
+  - Anionic (-o ending): Cl⁻ (chlorido/chloro), CN⁻ (cyano), C₂O₄²⁻ (oxalato), OH⁻ (hydroxo), O²⁻ (oxo).
+  - Neutral: H₂O (aqua), NH₃ (ammine), CO (carbonyl), en (ethane-1,2-diamine), py (pyridine), PPh₃ (triphenylphosphine).
+  - Cationic (-ium ending): NO⁺ (nitrosonium), NO₂⁺ (nitronium), NH₂NH₃⁺ (hydrazinium).
+
+• Denticity: Number of coordinate bonds formed by a single ligand with the CM.
+  - Monodentate: Forms 1 coordinate bond (e.g., H₂O, NH₃, Cl⁻, CN⁻).
+  - Bidentate: Forms 2 coordinate bonds simultaneously via 2 donor atoms.
+    • Symmetrical: en (ethane-1,2-diamine), ox²⁻ (oxalato), bpy (bipyridine).
+    • Unsymmetrical: gly⁻ (glycinato), dmg⁻ (dimethylglyoximato).
+  - Polydentate: Forms >2 coordinate bonds.
+    • EDTA⁴⁻ (ethylenediaminetetraacetate): Hexadentate (2 N + 4 O donors).
+    • EDTA³⁻: Pentadentate (2 N + 3 O donors).
+
+• Ambidentate Ligand: Monodentate ligand possessing >1 potential donor atom, but coordinates through ONLY ONE atom at a time.
+  - Examples: CN⁻ / NC⁻ (cyano-C / cyano-N), NO₂⁻ / ONO⁻ (nitrite-N / nitrite-O), SCN⁻ / NCS⁻ (thiocyanate-S / thiocyanate-N).
+
+• Flexidentate Ligand: Ligand that can vary its denticity based on the requirement of CM (e.g., EDTA⁴⁻, SO₄²⁻, CO₃²⁻).
+
+• Chelating Ligand: Multidentate ligand that binds to CM forming a cyclic ring structure (chelate ring).
+  - Chelate Effect: Complexes with chelate rings are significantly MORE stable than non-chelated complexes.
+  - Note: 3-membered rings are unstable due to strain; 5- and 6-membered rings are most stable.
+
+3. IUPAC NOMENCLATURE RULES
+• Cation is named first, followed by anion.
+• Inside Coordination Sphere: Name ligands alphabetically first, then name the Central Metal.
+• Numerical Prefixes: Use di, tri, tetra for simple ligands. Use bis, tris, tetrakis for complex ligands whose name already contains di, tri, etc. (e.g., tris(ethane-1,2-diamine)).
+• Oxidation State of CM is written in Roman numerals inside parentheses ( ).
+• Anionic Complex Entity: Central metal name MUST end with suffix "-ate".
+  - Examples: Ferrate (Fe), Cuprate (Cu), Argentate (Ag), Zincate (Zn), Chromate (Cr), Plumbate (Pb), Cobaltate (Co), Aluminat (Al), Stannate (Sn), Nickelate (Ni), Mercurate (Hg).
+• Cationic / Neutral Complex Entity: Central metal retains its standard elemental name.
+• Water of Crystallization: Named as "hydrate" (e.g., .2H₂O → dihydrate).
+• Complex Ion with Charge: Append the word "ion" at the end.
+
+4. WERNER'S THEORY
+• Primary Valency (PV):
+  - Corresponding to Oxidation State (OS) of central metal.
+  - Ionizable, non-directional.
+  - Satisfied ONLY by negative ions. Represented by dotted lines (...).
+• Secondary Valency (SV):
+  - Corresponding to Coordination Number (CN) of central metal.
+  - Non-ionizable, directional (determines complex geometry).
+  - Satisfied by neutral molecules or negative ions. Fixed for a metal. Represented by solid lines (—).
+• Solution Behavior & Conductance:
+  - Electrical Conductance ∝ Total number of ions produced in solution ∝ Charge on ions.
+  - Colligative Properties (ΔT_b, ΔT_f, π) ∝ Total number of solute particles/ions.
+
+5. EFFECTIVE ATOMIC NUMBER (EAN)
+• EAN: Total number of electrons present around the central metal atom/ion in a complex.
+• ⭐ Formula: EAN = Z - (ON) + 2 × (CN)
+  - Z = Atomic number of Central Metal
+  - ON = Oxidation State of Central Metal
+  - CN = Coordination Number of Central Metal
+
+6. VALENCE BOND THEORY (VBT)
+• Coordination Number & Hybridization:
+  - CN = 2 → sp (Linear)
+  - CN = 4 → sp³ (Tetrahedral) OR dsp² (Square Planar, uses d_x²-y²)
+  - CN = 6 → d²sp³ (Inner Orbital / Low Spin Complex) OR sp³d² (Outer Orbital / High Spin Complex)
+    • Inner/Outer d-orbitals used for Octahedral: d_x²-y² and d_z².
+
+• Strong Field Ligand (SFL): Forces pairing of d-electrons against Hund's rule (e.g., CN⁻, CO, NH₃).
+• Weak Field Ligand (WFL): Cannot force pairing of d-electrons (e.g., F⁻, Cl⁻, Br⁻, I⁻, H₂O).
+
+• Magnetic Properties:
+  - Paramagnetic: At least 1 unpaired electron (n ≥ 1).
+  - Diamagnetic: Zero unpaired electrons (n = 0).
+• ⭐ Spin-Only Magnetic Moment (μ):
+  μ = √(n(n + 2)) BM
+  - n = number of unpaired electrons; Unit = Bohr Magneton (BM).
+
+• VBT Limitations: Cannot explain spectrochemical series, quantitative color/absorption spectra, kinetic stability, or why certain CN=4 complexes are tetrahedral vs square planar.
+
+7. CRYSTAL FIELD THEORY (CFT)
+• Electrostatic Model: Considers metal-ligand bond as purely ionic, treating CM as positive point charge and ligands as negative point charges/dipoles.
+• d-Orbital Division:
+  - Non-Axial Set (t₂g): d_xy, d_yz, d_zx (lobes lie between coordinate axes).
+  - Axial Set (e_g): d_x²-y², d_z² (lobes lie directly along coordinate axes).
+
+• ⭐ Octahedral Splitting (Δ_o):
+  - Ligands approach along x, y, z axes.
+  - Axial e_g orbitals experience higher repulsion → Energy increases by +0.6 Δ_o (+3/5 Δ_o).
+  - Non-axial t₂g orbitals experience lesser repulsion → Energy decreases by -0.4 Δ_o (-2/5 Δ_o).
+  - Energy gap between t₂g and e_g = Δ_o (Crystal Field Splitting Energy).
+
+• ⭐ Tetrahedral Splitting (Δ_t):
+  - Ligands approach between axes.
+  - t₂g orbitals experience higher repulsion → Energy increases by +0.4 Δ_t (+2/5 Δ_t).
+  - e_g orbitals experience lesser repulsion → Energy decreases by -0.6 Δ_t (-3/5 Δ_t).
+  - Relationship with Octahedral: Δ_t = (4/9) × Δ_o
+
+• Splitting Magnitude Order: Δ_sq > Δ_o > Δ_t (Δ_sq ≈ 1.3 Δ_o).
+
+• ⭐ Spectrochemical Series (Ligand Field Strength ↑):
+  I⁻ < Br⁻ < SCN⁻ < Cl⁻ < S²⁻ < F⁻ < OH⁻ < C₂O₄²⁻ < H₂O < NCS⁻ < EDTA⁴⁻ < NH₃ < en < CN⁻ < CO
+  - WFL (H₂O and below): Δ_o < P (Pairing Energy) → No electron pairing → High Spin Complex.
+  - SFL (NH₃ and above): Δ_o > P → Electron pairing occurs in t₂g → Low Spin Complex.
+
+8. COLOR OF COORDINATION COMPOUNDS
+• Cause: d-d transition of electron from lower energy set (t₂g) to higher energy set (e_g) upon absorbing specific wavelength (λ) of visible light.
+• Observed Color = Complementary color of light absorbed (determined via Color Wheel).
+• Conditions for Color:
+  1. Must have d¹ to d⁹ electron configuration (d⁰ and d¹⁰ are colorless as d-d transition is impossible).
+  2. Presence of ligand field / splitting is mandatory (No ligands = No splitting = Colorless).
+  - Example: CuSO₄·5H₂O is blue (water ligands cause splitting); Anhydrous CuSO₄ is white/colorless. Heating CuSO₄·5H₂O drives off H₂O → becomes colorless.
+
+9. STABILITY OF COMPLEXES
+• Overall Formation / Stability Constant (K): M + 4L ⇌ ML₄
+  K = [ML₄] / ([M][L]⁴)
+• Stepwise Stability Constants: K = k₁ × k₂ × k₃ × k₄ # iska derivation h
+• Instability / Dissociation Constant = 1 / K
+• Factors Increasing Complex Stability:
+  - Central Metal Charge / OS ↑ → Stability ↑
+  - Central Metal Size ↓ → Stability ↑ (Z_eff ↑ → Stability ↑)
+  - Ligand Field Strength ↑ (SFL > WFL) → Stability ↑
+  - Chelate Effect: Number of chelate rings ↑ → Stability ↑
+
+10. SYNERGIC BONDING IN METAL CARBONYLS
+• Dual Bonding Mechanism:
+  1. M ← C σ-bond: Lone pair donation from filled C-orbital of CO into vacant d-orbital of CM.
+  2. M → C π-bond (Back Bonding): Donation from filled d-orbital of CM into vacant π* (anti-bonding) orbital of CO.
+• Synergic Effect:
+  - Strengthens M-C bond → M-C bond order ↑ → M-C bond length ↓.
+  - Weakens C-O bond → C-O bond order ↓ → C-O bond length ↑.
+  - Extent of Synergic Bonding ∝ Negative oxidation state on CM (More negative ON on metal = Stronger back bonding).
+
+11. ISOMERISM IN COORDINATION COMPOUNDS
+• A. Structural Isomerism:
+  1. Ionization Isomerism: Swapping of counter ion and ligand in sphere → Yields different ions in aq. solution.
+  2. Linkage Isomerism: Occurs when ambidentate ligand is present in complex (e.g., -NO₂ vs -ONO).
+  3. Solvate / Hydrate Isomerism: Different distribution of H₂O molecules inside vs outside coordination sphere.
+  4. Coordination Isomerism: Exchange of ligands between cationic and anionic complex entities.
+
+• B. Stereoisomerism:
+  1. Geometrical Isomerism (GI):
+     - Square Planar [CN=4]: [MA₄], [MA₃B] → No GI; [MA₂B₂] → 2 GI (Cis/Trans); [MABCD] → 3 GI.
+     - Octahedral [CN=6]: [MA₆], [MA₅B] → No GI; [MA₄B₂] → 2 GI (Cis/Trans); [MA₃B₃] → 2 GI (Facial/fac & Meridional/mer).
+  2. Optical Isomerism (OI):
+     - Requires chiral molecule (Absence of Plane of Symmetry / POS).
+     - Square Planar: Generally optically inactive due to molecular POS.
+     - Octahedral: [M(AA)₃] → Optically active (d and l enantiomers); Cis-[M(AA)₂B₂] → Optically active; Trans-[M(AA)₂B₂] → Optically inactive (POS present).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LAST-MINUTE SCAN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• EAN = Z - ON + 2(CN)
+• μ = √(n(n + 2)) BM (n = unpaired electrons)
+• Splitting relation: Δ_t = (4/9) Δ_o # iska derivation h | Δ_sq > Δ_o > Δ_t
+• Stability constant: K_overall = k₁ × k₂ × k₃ × k₄ # iska derivation h
+• SFL (Δ_o > P): Pairing occurs (Low Spin) | WFL (Δ_o < P): No pairing (High Spin)
+• d⁰ and d¹⁰ configurations = Colorless (No d-d transition)
+• Chelate Ring: 5- or 6-membered rings give maximum stability.
+• Synergic Bonding: Negative ON on Metal ↑ → Synergic bonding ↑ → M-C bond order ↑ → C-O bond order ↓
+• Ambidentate Ligand → Linkage Isomerism
+• [MA₃B₃] Octahedral → Facial (fac) and Meridional (mer) GI
+• Trans-[M(AA)₂B₂] → Optically Inactive (POS present); Cis-[M(AA)₂B₂] → Optically Active (No POS)
+• Exam Trap 1: Always verify if ligand is bidentate before counting Coordination Number (e.g., [Co(en)₃]³⁺ has CN = 6, NOT 3!).
+• Exam Trap 2: SFL does NOT force pairing in d¹-d³ or d⁸-d¹⁰ configurations in octahedral geometry!
+• Exam Trap 3: Anhydrous CuSO₄ is white/colorless because without ligands, d-orbital splitting does not occur!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Low spin tetrahedral complexes are not known.
+- The orbital splitting energies are not sufficiently large for forcing paring of electrons.
+
+CO is a stronger complexing agent than NH3.
+- CO can form both sigma ( σ ) and pi ( π )bond with central metal atom/Metal to ligand bonding creates synergic effect between CO and the Metal.
+
+What happens on heating the complex [Ti(H2O)6]Cl3 ?
+- When heated, water is lost therefore crystal field splitting does not occur and it becomes colourless.
+
+Explain why [Fe(CN)6]3− is an inner orbital complex, whereas [Fe(H2O)6]3+ is an outer orbital complex.
+- CN− being a strong ligand leads to the pairing of electrons in [Fe(CN)6]3− leading to d2sp3 hybridization. H2O being a weak ligand does not lead to the pairing of electrons in [Fe(H2O)6]3+ leading to sp3 d2 hybridization.
+
+What is meant by crystal field splitting energy?
+- The difference of energy between the two sets of d-orbitals t2g and eg due to the presence of ligands in a definite geometry. / The energy required to split the degenerate d-orbitals into two sets of orbitals.
+
+Arrange the following complexes in the increasing order of conductivity of their solution : [Cr(NH3)5Cl]Cl2,[Cr(NH3)3Cl3],[Cr(NH3)6]Cl3
+- [Cr(NH3)3Cl3]<[Cr(NH3)5Cl]Cl2<[Cr(NH3)6]Cl3
+
+Write the electronic configuration for d4 ion if Δ0<P on the basis of crystal field theory.
+- (t_2g)^3 (e_g)^1
+
+PtCl4⋅2KCl doesn't give precipitate of AgCl with AgNO3 solution. Write the structural formula and IUPAC name of the complex.
+- Structural formula: K2[PtCl6],    IUPAC Name: Potassium hexachloridoplatinate(IV)
+
+Which of the following species cannot act as a ligand ? Give reason.
+OH−, NH+4, CH3NH2, H2O
+- NH4+, Due to the unavailability of lone pair of electrons / cannot act as a Lewis base.
+
+# trans- [Co(en)2Cl2]+,    is not optically active but cis-isomer is.
+
+# The oxidation state of Fe in [Fe(CO)5] is 0, CO is a neutral ligand.
+
+Using IUPAC norms, write the formula of Ammonium tetrafluoridocobaltate(II).
+- (NH4)2[CoF4]

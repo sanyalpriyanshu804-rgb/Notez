@@ -1,0 +1,131 @@
+This formula sheet provides a comprehensive collection of the mathematical expressions found in the source regarding electric charges, fields, and flux.
+
+### **I. Fundamentals of Electric Charge**
+*   **Additivity of Charge:** $q_{net} = q_1 + q_2 + q_3 \dots$.
+*   **Charge Sharing (Identical Conductors):** $Q_{final} = \frac{q_1 + q_2}{2}$.
+*   **Quantization of Charge:** $Q = \pm ne$ (where $n$ is an integer and $e \approx 1.6 \times 10^{-19} C$) [Notes from previous turns/common knowledge context in source 1].
+
+### **II. Coulomb’s Law and Force**
+*   **Coulomb's Law (Vacuum):** $F = \frac{kq_1q_2}{r^2}$.
+*   **Force in a Medium:** $F_{medium} = \frac{F_{vacuum}}{K}$.
+*   **Dielectric Constant ($K$):** $K = \frac{\epsilon_m}{\epsilon_0}$.
+*   **Fractional Change in Force:** $\frac{\Delta F}{F} = \frac{K-1}{K}$.
+*   **Percentage Change in Force:** $\% \Delta F = \frac{K-1}{K} \times 100$.
+
+### **III. Electric Field (EF) Intensity and Motion**
+*   **Electric Field Intensity ($E$):** $E = \frac{F}{q_0}$.
+*   **Acceleration in a Uniform EF:** $a = \frac{qE}{m}$.
+*   **Linear Charge Density ($\lambda$):** $\lambda = \frac{Q}{L}$.
+*   **Surface Charge Density ($\sigma$):** $\sigma = \frac{Q}{A}$.
+*   **Volume Charge Density ($\rho$):** $\rho = \frac{Q}{V}$.
+
+### **IV. EF for Continuous Charge Distributions**
+*   **Finite Rod (on axis):** $E = \frac{kQ}{x(x+L)}$.
+*   **Infinite Wire:** $E = \frac{2k\lambda}{r}$.
+*   **Semi-infinite Wire (at end):** $E_{\perp} = \frac{k\lambda}{r}$ and $E_{\parallel} = \frac{k\lambda}{r}$.
+*   **Angular Ring/Arc (at center):** $E = \frac{2k\lambda \sin(\theta/2)}{R}$.
+*   **Semi-circular Ring (at center):** $E = \frac{2k\lambda}{R}$ or $E = \frac{2kQ}{\pi R^2}$.
+*   **General Finite Thread (at distance $r$):**
+    *   **Perpendicular Component:** $E_{\perp} = \frac{k\lambda}{r}(\sin \theta_1 + \sin \theta_2)$.
+    *   **Parallel Component:** $E_{\parallel} = |\frac{k\lambda}{r}(\cos \theta_2 - \cos \theta_1)|$.
+*   **Charged Ring (on axis at distance $x$):** $E = \frac{kQx}{(R^2+x^2)^{3/2}}$.
+    *   **Maximum Field on Axis:** Occurs at $x = \pm \frac{R}{\sqrt{2}}$.
+*   **Charged Disc:** $E = \frac{\sigma}{2\epsilon_0}{1 - \frac{x}{(x^2 + R^2)^{1/2}}
+*   **Infinite Thin Charged Sheet:** $E = \frac{\sigma}{2\epsilon_0}$.
+*   **Conducting Plates (Outer Surface Charge):** $Q_{outer} = \frac{\sum Q}{2}$.
+
+### **V. EF for Spherical and Cylindrical Distributions**
+*   **Conducting/Hollow Sphere (Radius $R$):**
+    *   **Inside ($r < R$):** $E = 0$.
+    *   **On Surface/Outside ($r \geq R$):** $E = \frac{kQ}{r^2}$.
+*   **Non-conducting Solid Sphere (Radius $R$):**
+    *   **Inside ($r < R$):** $E = \frac{kQr}{R^3}$ or $E = \frac{\rho r}{3\epsilon_0}$.
+    *   **Outside ($r \geq R$):** $E = \frac{kQ}{r^2}$.
+*   **Non-conducting Cylinder (Radius $R$):**
+    *   **Inside ($r < R$):** $E = \frac{\rho r}{2\epsilon_0}$.
+    *   **Outside ($r > R$):** $E = \frac{\rho R^2}{2\epsilon_0 r}$.
+
+### **VI. Electric Dipole**
+*   **Dipole Moment ($\vec{p}$):** $\vec{p} = q \times 2\vec{a}$ (directed from $-q$ to $+q$).
+*   **Axial Point Field:** $E = \frac{2kp}{r^3}$.
+*   **Equatorial Point Field:** $E = \frac{kp}{r^3}$ (anti-parallel to $\vec{p}$).
+*   **Torque in Uniform EF:** $\vec{\tau} = \vec{p} \times \vec{E} = pE \sin \theta$.
+*   **Work Done in Rotating a Dipole:** $W = pE(\cos \theta_1 - \cos \theta_2)$.
+*   **Field Proportionality Summary:**
+    *   **Monopole ($Q \neq 0$):** $E \propto \frac{1}{r^2}$.
+    *   **Dipole ($Q = 0, p \neq 0$):** $E \propto \frac{1}{r^3}$.
+    *   **Quadrupole:** $E \propto \frac{1}{r^4}$.
+
+### **VII. Electric Flux and Gauss Law**
+*   **Electric Flux ($\Phi$):** $\Phi = \vec{E} \cdot \vec{A} = EA \cos \theta$.
+*   **Gauss Law:** $\Phi = \oint \vec{E} \cdot d\vec{A} = \frac{Q_{in}}{\epsilon_0}$.
+
+
+This formula sheet is compiled from the provided sources, covering Electrostatic Potential Energy, Electric Potential for various geometries, Dipole properties, Conductor behavior, and Self-Energy.
+
+### **I. Electrostatic Potential Energy ($U$)**
+*   **Fundamental Definition:** $\Delta U = U_f - U_i = -W_{elec}$.
+*   **Work Done by External Agent (slowly):** $W_{ext} = \Delta U$.
+*   **Two Point Charges:** $U = \frac{k q_1 q_2}{r}$ (Assume $U = 0$ at $r = \infty$; include signs of charges).
+*   **System of $n$ Charges:** $U_{sys} = \sum \text{Interaction energies of all } ^nC_2 \text{ pairs}$.
+    *   *Example (3 charges):* $U_{sys} = \frac{k q_1 q_2}{r_{12}} + \frac{k q_1 q_3}{r_{13}} + \frac{k q_2 q_3}{r_{23}}$.
+*   **Total Energy of a System:** $U_{total} = \sum U_{self} + \sum U_{interaction}$.
+
+### **II. Electric Potential ($V$)**
+*   **Definition:** $V = \frac{U}{q}$.
+*   **Relation between Electric Field ($\vec{E}$) and $V$:** $\Delta V = V_f - V_i = -\int \vec{E} \cdot d\vec{r}$.
+*   **Point Charge:** $V = \frac{kq}{r}$.
+*   **Finite Charged Rod (length $L$, distance $a$ from end):** $V = \frac{kQ}{L} \ln\left[\frac{a+L}{a}\right]$.
+*   **Thin Uniform Ring:**
+    *   **At Center ($x=0$):** $V = \frac{kQ}{R}$.
+    *   **At Axial Point ($x$):** $V = \frac{kQ}{\sqrt{R^2 + x^2}}$.
+*   **Uniformly Charged Disc (Axial point):**
+    *   $V = \frac{\sigma}{2\epsilon_0} \left[\sqrt{R^2 + x^2} - x\right]$ OR $V = \frac{\sigma}{2\epsilon_0} (1 - \cos\theta) \sqrt{R^2 + x^2}$.
+*   **Infinite Long Wire:** $V_a - V_b = 2k\lambda \ln\left(\frac{R_b}{R_a}\right)$.
+*   **Thin Spherical Shell (Hollow Sphere):**
+    *   **Inside ($r < R$):** $V = \frac{kQ}{R}$ (Constant).
+    *   **Outside ($r \geq R$):** $V = \frac{kQ}{r}$.
+*   **Solid Non-Conducting Sphere:**
+    *   **Inside ($r < R$):** $V = \frac{kQ}{2R^3}(3R^2 - r^2)$.
+    *   **At Center ($r = 0$):** $V_c = 1.5 \times V_{surface} = \frac{3kQ}{2R}$.
+
+### **III. Electric Dipole**
+*   **Dipole Moment:** $\vec{p} = q \cdot \vec{d}$ (Direction: $-q$ to $+q$).
+*   **Dipole Electric Field:**
+    *   **Axial Point:** $\vec{E}_{axial} = \frac{2k\vec{p}r}{(r^2 - a^2)^2}$.
+    *   **Equatorial Point:** $\vec{E}_{equi} = -\frac{k\vec{p}}{(r^2 + a^2)^(3/2)}$.
+*   **Short Dipole Electric Field:**
+    *   **Axial Point:** $\vec{E}_{axial} = \frac{2k\vec{p}}{r^3}$.
+    *   **Equatorial Point:** $\vec{E}_{equi} = -\frac{k\vec{p}}{r^3}$.
+    *   **General Point ($\theta$):** $E_{net} = \frac{kp}{r^3} \sqrt{1 + 3 \cos^2\theta}$.
+*   **Potential due to Dipole:**
+    *   $V = \frac{kp \cos\theta}{r^2}$.
+    *   **Vector Form:** $V = \frac{k(\vec{p} \cdot \vec{r})}{r^3}$.
+# $V_{axial} = \frac{kp}{r^2}$.
+# $V_{equitorial} = 0
+*   **Dipole in Uniform External Field ($\vec{E}$):**
+    *   **Net Force:** $F_{net} = 0$.
+    *   **Torque:** $\vec{\tau} = \vec{p} \times \vec{E}$.
+    *   **Potential Energy:** $U = -\vec{p} \cdot \vec{E} = -pE \cos\theta$.
+    *   **Work Done in Rotation:** $W_{ext} = pE(\cos\theta_1 - \cos\theta_2)$.
+    *   **Time Period of Angular SHM:** $T = 2\pi \sqrt{\frac{I}{pE}}$.
+*   **Force in Non-Uniform Field:** $F = -\frac{dU}{dR}$.
+
+### **IV. Self-Potential Energy ($U_{self}$)**
+*   **Point Charge:** $U_{self} = 0$.
+*   **Hollow Spherical Shell:** $U_{self} = \frac{kQ^2}{2R} = \frac{Q^2}{8\pi\epsilon_0 R}$.
+*   **Solid Non-Conducting Sphere:** $U_{self} = \frac{3}{5} \frac{kQ^2}{R}$.
+*   **Work Done by Electric Field (expansion):** $W_{elec} = U_{initial} - U_{final}$.
+*   **External Work (radius change):** $W_{ext} = U_{final} - U_{initial}$.
+*   **N-Drops Merging Problem:**
+    *   **Final Charge:** $Q = Nq$.
+    *   **Final Radius:** $R = N^{1/3} r$.
+
+### **V. Electrostatics of Conductors & Problem Solving**
+*   **Surface Charge Density:** $\sigma \propto \frac{1}{R}$ (Higher at sharp points).
+*   **Earthing:** Potential $V = 0$.
+*   **Parallel Plate Distribution:** $Q_{outer} = \frac{\sum Q_i}{2}$.
+*   **Mechanical Energy Conservation:** $KE_i + U_i = KE_f + U_f$.
+*   **Equilibrium of Dipole:**
+    *   **Stable:** $\theta = 0^\circ$ ($U$ is minimum).
+    *   **Unstable:** $\theta = 180^\circ$ ($U$ is maximum).

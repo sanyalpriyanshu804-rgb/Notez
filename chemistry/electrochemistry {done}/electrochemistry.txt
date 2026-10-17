@@ -1,0 +1,212 @@
+COMPLETE REVISION SHEET
+
+1. FUNDAMENTALS AND CELL TYPES
+- Electrochemistry: Study of interconversion of chemical and electrical energy.
+- Galvanic/Voltaic/Electrochemical Cell: Chemical → Electrical; Spontaneous (ΔG = -ve); Anode(-ve), Cathode(+ve).
+- Electrolytic Cell: Electrical → Chemical; Non-spontaneous (ΔG = +ve); Anode(+ve), Cathode(-ve).
+- 📌 Anode: Always Oxidation; Cathode: Always Reduction.
+- Reversibility: stops if opposing EMF is equal; reverses if opposing EMF > cell EMF.
+- Electrode Potential: Arises from charge separation at rod-solution interface due to de-electronation (M → Mⁿ⁺ + ne⁻) or electronation (Mⁿ⁺ + ne⁻ → M).
+- 📌 Direction of flow: Electrons (Anode → Cathode); Current (Cathode → Anode).
+
+2. GALVANIC CELLS AND SALT BRIDGE
+- ⭐ EMF Formula: E°cell = E°SRP(Cathode) - E°SRP(Anode).
+- Daniell Cell: Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s). E° = 1.1V.
+- Salt Bridge Functions: Completes circuit; maintains electrical neutrality; minimizes Liquid-Liquid Junction Potential (LLJP).
+- 📌 Electrolyte Criteria: Equal ionic mobility (K⁺ ≈ Cl⁻); chemically inert.
+- ⚠️ "Choking" Trap: Do NOT use KCl if cell has Ag⁺, Pb²⁺, Hg₂²⁺, or Tl⁺; forms precipitate choking the bridge. Use NH₄NO₃ or KNO₃ instead.
+- IUPAC Representation: Anode(Left) || Cathode(Right). Phase boundary (|), Salt Bridge (||).
+- 📌 Gas Electrode: Pt | Gas | Ion (Anode); Ion | Gas | Pt (Cathode). Gas always next to Pt.
+
+3. STANDARD HYDROGEN ELECTRODE (SHE) AND ECS
+- SHE: Primary reference electrode; E° assigned 0.0V at all temperatures.
+- Construction: Pt wire, H₂ gas (1 bar), 1M H⁺ ions (HCl).
+- Standard Conditions: 1M concentration, 1 bar pressure, 298K.
+
+- Electrochemical Series (ECS): Arrangement by increasing Standard Reduction Potential (SRP).
+- 💡 Interpretation:
+  - Higher SRP = Stronger Oxidizing Agent (F₂ has highest SRP = 2.87V).
+  - Lower SRP = Stronger Reducing Agent (Li has lowest SRP = -3.05V).
+- Metal Displacement: Metal with lower SRP displaces metal with higher SRP from salt solution.
+- Reactivity with Acids: Metals with negative SRP liberate H₂ from dilute acids.
+- ⭐ SRP = -SOP (Standard Oxidation Potential).
+
+4. THERMODYNAMICS AND EMF
+- ⭐ Free Energy: ΔG = -nFEcell; ΔG° = -nFE°cell.
+- Constants: F (Faraday) = 96500 C/mol; n = moles of e⁻ canceled in net reaction.
+- Spontaneity: Spontaneous if Ecell = +ve and ΔG = -ve.
+- ⚠️ Intensive Property Trap: E° is intensive (not additive). ΔG is extensive (additive). To find E° for unknown half-reaction, combine ΔG° values, not E°.
+
+5. NERNST EQUATION
+- Purpose: Calculates actual EMF (E) when conditions ≠ standard (1M, 1 bar).
+- ⭐ Master Formula (298K):
+            Ecell = E°cell - (RT/nF) logₑ Q.
+                Ecell = E°cell - (0.0591/n) log₁₀ Q.     # at 25ᵒC
+- Q (Reaction Quotient): [Products] / [Reactants] raised to stoichiometry. 📌 Ignore solids/pure liquids.
+- Hydrogen Electrode Potential: ⭐ E(H⁺/H₂) = -0.0591 × pH.
+- Graphs: Ecell vs log₁₀ Q is linear with Slope = -0.0591/n and Intercept = E°cell.
+- ⚠️ Concentration Cell: E°cell = 0 (electrodes same). Driven by log(Canode/Ccathode).
+- 💡 Advanced Link: Use Ksp to find ion concentrations for Q (Ksp = [Mⁿ⁺][Xⁿ⁻]).
+- Temperature Coefficient: ΔS = nF(dE/dT)p. Enthalpy: ΔH = -nFE + nFT(dE/dT)p.
+- Equilibrium: ⭐ E°cell = (0.0591/n) log₁₀ Keq at 298K.
+
+6. ELECTROLYSIS AND FARADAY'S LAWS
+- Electrolysis - The process of decomposition of an electrolyte on passing electricity or electrical current through it's aq solution or molten state. The cell used for this process is called an electrolytic cell.
+# in an electrolytic cell anode is (+ve) and cathode is (-ve)
+
+- Faraday’s 1st Law: The mass (W) of any substance deposited or liberated at any
+electrode is directly proportional to the quantity of electricity (Q) passed
+through the electrolyte.
+        ⭐ W = EIt / 96500 = ZIt.    # E = Molar mass / n-factor
+- Faraday's 2nd Law: When the same quantity of electricity is passed through different electrolytes connected in series, the masses of the substances produced are proportional to their equivalent weights.
+        W₁/E₁ = W₂/E₂ for cells in series. Equivalents deposited are equal.
+- ⭐ Charge: Q = (n × n_f)F where n = moles, n_f = n-factor (valency/e⁻ transfer).
+- % Efficiency = (W_actual / W_theoretical) × 100.
+- 📌 Cathode Equivalents = Anode Equivalents.
+- 💡 Gas at STP: 1F produces 11.2 L H₂ or 5.6 L O₂.
+
+- Preferential Discharge Rules:
+{ If more than one type of ion is attracted towards a particular electrode, then the ion is discharged which have lower discharge potential. }
+  - Cathode: Higher SRP reduces first. Group 1/2 metals < H₂O; H₂ gas produced from water.
+# CHAPA - Cu²⁺ Hg²⁺ Ag²⁺ Pt³⁺ Au³⁺, reduces before H₂O or H⁺
+  - Anode: Higher SOP oxidizes first. Halides (Cl⁻, Br⁻, I⁻) > H₂O.
+  - ⚠️ Overvoltage Trap: Cl₂ evolved instead of O₂ in aq. NaCl due to slow O₂ kinetics.
+  - H₂SO₄: Dilute → O₂; Concentrated → S₂O₈²⁻ (peroxodisulphuric acid).
+
+7. CONDUCTANCE
+
+??????????????????????????????????
+Metallic Conduction
+- The movement of electrons causes the electrical current.
+- There is no chemical reaction.
+- Resistance increases with an increase in temperature.
+- Electronic conductance depends on the nature and structure of metal.
+
+Electrolytic Conductance
+- The movement of ions causes an electric current.
+- Ions get ionized or reduced at the electrodes.
+- Resestance decreases with an increase in temperature.
+- Ionic conductance depends on the nature of electrolyte, size of ions and nature of solvent.
+??????????????????????????????????
+
+- Conductance G = (1/R)
+- Resistance: R = ρ(l/A).
+- Conductivity (κ): Reciprocal of resistivity (ρ).
+                κ = G × (l/A).
+- Cell Constant (G*): l/A. ⭐ κ = G × G* = G* / R.
+- Molar Conductivity: ⭐ Λm = κ(1000) / Molarity.
+        - Unit : Scm² mol⁻¹
+- Eq. Conductivity: Λeq = κ(1000) / Normality.
+        - Unit : Scm² eq⁻¹
+- ⭐ Relation: Λm = Λeq × n-factor.
+- Dilution Effects:
+          - κ decreases (ions/mL ↓).
+          - G, Λm, Λeq increase (volume effect/dissociation ↑).
+- Strong Electrolytes: Λm = Λ°m - b√C (Debye-Hückel-Onsager).    # strong aur weak ka graph
+- Kohlrausch's Law: ⭐ Λ°m = xλ°(+) + yλ°(-) at infinite dilution.
+- 💡 Degree of Dissociation (α): α = Λm / Λ°m. Dissociation Constant: Ka = Cα² / (1-α).
+- Mobility: H⁺ > OH⁻ > other ions (Grotthuss/jump mechanism).
+- 💡 Hydration: Smaller ions (Li⁺) have larger hydrated radii and lower conductance than K⁺.
+
+8. BATTERIES AND CORROSION
+- Primary (Non-rechargeable):
+  - Dry Cell: 1.5V. Zn anode, MnO₂ cathode. Zn²⁺ complexed by NH₃ to [Zn(NH₃)₄]²⁺.
+  - Mercury Cell: 1.35V. Constant voltage as net reaction has no ions in solution.
+- Secondary (Rechargeable):
+  - Lead Storage: 2.0V/cell. Pb anode, PbO₂ cathode, 38% H₂SO₄. Charging restores density.
+  - Ni-Cd Cell: 1.2V. Longer life, Cd anode, NiO(OH) cathode.
+- Fuel Cells: H₂-O₂ cell, 70% efficient. Used in Apollo mission. Product = pure water.
+- Corrosion: Fe → Fe²⁺ (Anode); O₂ → H₂O (Cathode). Rust = Fe₂O₃.xH₂O.
+- Prevention: Galvanization (Zn coating - sacrificial); painting; cathodic protection (Mg/Zn).
+
+LAST-MINUTE REVISION
+- Daniell Cell E° = 1.1V. SHE E° = 0V.
+- Master EMF: E°cell = E°cathode - E°anode (using SRP).
+- Master Nernst: E = E° - (0.0591/n) log Q.
+- Free Energy: ΔG = -nFE. F = 96500 C/mol.
+- Faraday: W = EIt/96500. 1F deposits 1 equivalent.
+- H-electrode: E_red = -0.0591 × pH.
+- Kohlrausch: Λ°m is additive sum of ionic conductivities.
+- α = Λm / Λ°m.
+- Battery Voltages: Dry(1.5), Mercury(1.35), Ni-Cd(1.2), Lead(2.0/cell).
+- Rust: Fe₂O₃.xH₂O.
+
+COMMON TRAPS
+- ⚠️ Salt Bridge: No KCl for Ag⁺, Pb²⁺, Hg₂²⁺ cells (precipitate).
+- ⚠️ Sign Convention: E°ox = -E°red. Nernst formula sign depends on log(Prod/React).
+- ⚠️ Stoichiometry: In Nernst Q, exponents = stoichiometric coefficients.
+- ⚠️ Intensive Property: E° values cannot be added/subtracted for multi-step reactions; use ΔG.
+- ⚠️ Specific Conductance: κ decreases on dilution, while Λm increases.
+- ⚠️ H-electrode Notation: Anode (Pt | H₂ | H⁺); Cathode (H⁺ | H₂ | Pt).
+- ⚠️ Overvoltage: Cl₂ evolves in aq. NaCl electrolysis instead of O₂.
+- ⚠️ Cell Constant: G* = l/A is constant for a given cell regardless of solution.
+
+ULTRA-QUICK SCAN
+- Galvanic: Chem → Elec (Spont). Electrolytic: Elec → Chem (Non-spont).
+- ΔG = -nFE. ΔG° = -nFE°.
+- Ecell = E° - (0.059/n) log Q.
+- Keq: log Keq = nE°/0.059.
+- W = EIt/96500. Q = It = n(n_f)F.
+- Electrolysis Cathode: High SRP first. Anode: High SOP first.
+- κ = G(l/A). Λm = κ(1000)/M.
+- Kohlrausch: Λ°m is sum of ions.
+- α = Λm / Λ°m.
+- H-electrode: E = -0.059pH.
+- Mercury Cell = Constant voltage.
+- Rust = Fe oxidation + O₂ reduction.
+
+---------------------------------------------------------------------------------------------------------------------------------
+boards m -
+- lead battery ki anode, cathode aur overall rxn kafi baar puchi h.
+Anode Rexn : Pb + SO4^2− → PbSO4 + 2e−
+Cathode Rexn : PbO2 + 4H^+ + SO4^2 − + 2e^− → PbSO4 + 2H2O
+Net Rexn : Pb + PbO2 + 2H2SO4 → 2PbSO4 + 2H2O
+
+recharging ki eqn k liye anode ki eqn ko ulta karke cathode pe likhna h and vice-versa.
+
+- Explain why electrolysis of an aqueous solution of NaCl gives H2 gas at cathode and Cl2 gas at anode? Write overall reaction.    # overpotential
+- unit likhna important h nahi toh marks katenge.
+- mercury cell, constant voltage deta h aur, uski life bhi long hoti h kyunki koi ions involved nahi h redox rxn m.
+
+Give reasons for the following :
+(a) The pH of aqueous NaCl increases when it is electrolysed.
+(b) Unlike dry cell, mercury cell has a constant cell potential through its lifetime.
+(c) Conductivity of solution decreases with dilution.
+--- Ans ---
+a) Because of the formation of NaOH /  Due to the formation of  OH− ions.
+b) Because the overall reaction does not involve any ion in solution whose concentration can change during its life time.
+c) Because the number of ions per unit volume that carry current in a solution decreases.
+
+Assertion (A) : For measuring resistance of an ionic solution an AC source is used.
+Reason (R) : Concentration of ionic solution will change if DC source is used.
+--- Ans ---
+Both A and R are true, and R is the correct explanation of A.
+    Assertion (A) is true: AC is used to measure the resistance/conductance of an ionic solution.
+    Reason (R) is true: With DC, ions continuously migrate toward the electrodes, causing electrolysis and changing the concentration of the solution near the electrodes.
+    Using AC rapidly reverses the direction of ion movement, minimizing net ion migration and concentration changes.
+
+What amount of electric charge is required for the reduction of 1 mole of MnO4(^-1) into Mn^2+ ?    # 5F
+
+Assertion (A) : Electrolysis of aqueous NaCl gives H2 at cathode and Cl2 at anode.
+Reason (R): Chlorine has higher oxidation potential than H2O.
+--- Ans ---
+Assertion (A) is true, but Reason (R) is false.
+
+On the basis of E* values, O2 gas should be liberated at anode but it is Cl2 gas which is liberated in the electrolysis of aqueous NaCl, why?
+--- Ans ---
+Although the standard electrode potential suggests that O2 should be liberated at the anode, in the electrolysis of aqueous NaCl, Cl2 is actually produced because of overvoltage (overpotential).
+
+Assertion (A) : For a Daniell cell, Zn/Zn2+(1M)∥Cu2+(1M)/Cu with E∘ cell =1.1 V, if the external opposing potential is more than 1.1 V , the electrons flow from Cu to Zn .
+Reason (R) : Cell acts like a galvanic cell.
+--- Ans ---
+Assertion (A) is true, but Reason (R) is false.
+
+
+Four half reactions I to IV are shown below :
+I. 2Cl^−  →  Cl2+2e^−
+II. 4OH^−  →  O2 + 2H2O+2e^−
+III. Na^+ + e^−  →  Na
+IV. 2H^+ + 2e^−  →  H2
+Which two of these reactions are most likely to occur when concentrated brine is electrolysed ?    # I and IV
+
+How many coulombs are required for the oxidation of 1 mol of H2O to O2 ?    # 2F not 4F

@@ -1,0 +1,249 @@
+COMPLETE REVISION SHEET
+
+# amplitude bole toh rms nahi peak value batani h (-:-)
+[
+If the question asks for… | Use
+
+Current or voltage (no extra specification)  | Usually RMS value in standard AC circuit problems
+RMS current/voltage                                    | RMS value
+"Amplitude", maximum value, or peak value | Peak value
+Average value                                               | Average value, usually over a specified interval
+Heating effect or power in a resistor            | RMS value
+Maximum current at resonance                    | Peak or RMS, depending on what is asked
+]
+
+COMPLETE REVISION SHEET
+
+1. AC VS DC & STATISTICAL REPORTING VALUES
+
+Direct Current (DC) vs Alternating Current (AC):
+- Direct Current (DC): Constant magnitude and constant direction over time.
+- Alternating Current (AC): Time-varying magnitude and direction (periodic).
+- 📌 Pure AC Condition: Direction must change (cross the zero axis) periodically at regular intervals. Pulsating current varying in magnitude without changing direction is NOT pure AC.
+- Mixed Signal: I = A + B sin(ωt) [or I_dc + I₀ sin(ωt)]. Constant DC offset A shifts oscillation axis to y = A. Current range: (A - B) to (A + B). Example: I = 2 + sin(ωt) ⇒ Range 1 to 3 (oscillates in positive region, contains AC peak = 1).
+
+Average Current (I_avg):
+- Focus: Total charge transferred (Q = I_avg Δt).
+- Formula: I_avg = (∫ I dt) / (t₂ - t₁)
+- ⭐ Full Cycle (0 to T) Sinusoidal: I_avg = 0 (positive area cancels negative area).
+- ⭐ Half Cycle (0 to T/2) Sinusoidal: I_avg = 2 I₀ / π ≈ 0.637 I₀.
+
+Root Mean Square Current (I_rms / Effective / Virtual):
+- Focus: Joule heating produced or work done (H = I_rms² R t).
+- Formula: I_rms = √ [ (∫ I² dt) / (t₂ - t₁) ]
+- ⭐ Sinusoidal Result: I_rms = I₀ / √2 ≈ 0.707 I₀.
+- ⭐ Full Cycle Trig Averages:
+  <sin θ> = 0, <cos θ> = 0, <sin 2θ> = 0, <cos 2θ> = 0, <sin θ cos θ> = 0
+  <sin² θ> = 1/2, <cos² θ> = 1/2
+
+⭐ Standard Mixed Signal & Non-Sinusoidal RMS Results:
+- For I = a + b sin(ωt): I_rms = √ (a² + b²/2)
+- For I = i₁ sin(ωt) + i₂ cos(ωt): I_rms = √ [ (i₁² + i₂²) / 2 ] = (1/√2) √ (i₁² + i₂²)
+- For Square Wave (±I₀): I_rms = I₀.
+- Measuring Instruments: AC ammeters and voltmeters always read RMS values. Standard rating "220 V, 50 Hz" means V_rms = 220 V, Peak V₀ = 220 √2 ≈ 311 V.
+
+2. PHASORS AND PHASE RELATIONS
+
+Phasor Mechanics:
+- Definition: Rotating vector about origin with angular velocity ω representing sinusoidal quantities. Length = Peak value (I₀ or V₀).
+- Projection on Y-axis = Instantaneous value for sine (I = I₀ sin(ωt)).
+- Projection on X-axis = Instantaneous value for cosine (I = I₀ cos(ωt)).
+- Rotation direction: Counterclockwise at angular speed ω.
+- 📌 Restriction: Phasors apply strictly to sinusoidal functions (not for square or sawtooth waves). Origin: e = N B A ω sin(ωt).
+
+Phase Difference (Δϕ):
+- Instantaneous Phase: Total angle (ωt + ϕ).
+- Phase Difference: For V = V₀ sin(ωt + ϕ₁) and I = I₀ sin(ωt + ϕ₂), Δϕ = ϕ₂ - ϕ₁.
+- 📌 Condition: Both functions must be in the same trigonometric form (e.g. both sine) with positive peak amplitudes before comparing phase.
+- Leading (+ϕ): Reaches peak earlier in time; graph shifts LEFT.
+- Lagging (-ϕ): Reaches peak later in time; graph shifts RIGHT.
+
+3. PURE AC CIRCUITS (R, L, C)
+
+Pure Resistance (R):
+- Equations: V = V₀ sin(ωt), I = I₀ sin(ωt).
+- Phase difference ϕ = 0 (V and I in same phase).
+- Peak current: I₀ = V₀ / R; RMS current: I_rms = V_rms / R.
+- Impedance Z = R (independent of frequency f).
+
+Pure Inductance (L):
+- Equations: V = V₀ sin(ωt), I = I₀ sin(ωt - π/2).
+- Phase: Voltage leads current by π/2 (90°); Current lags voltage by π/2.
+- ⭐ Inductive Reactance: X_L = ωL = 2πfL (Ohms, Ω). X_L ∝ f.
+- 📌 DC Behavior (f = 0): X_L = 0 ⇒ Acts as short circuit (simple wire).
+- 📌 High Frequency AC (f → ∞): X_L → ∞ ⇒ Acts as open circuit.
+- Back-EMF opposes rate of current change.
+
+Pure Capacitance (C):
+- Equations: V = V₀ sin(ωt), I = I₀ sin(ωt + π/2).
+- Phase: Current leads voltage by π/2 (90°); Voltage lags current by π/2.
+- ⭐ Capacitive Reactance: X_C = 1 / (ωC) = 1 / (2πfC) (Ohms, Ω). X_C ∝ 1/f.
+- 📌 DC Behavior (f = 0): X_C = ∞ ⇒ Acts as open circuit (blocks DC completely).
+- 📌 High Frequency AC (f → ∞): X_C → 0 ⇒ Acts as short circuit.
+
+4. COMBINATION AC CIRCUITS (SERIES RL, RC, RLC)
+
+KVL Rule:
+Sum of loop voltages holds, but must be added vectorially as phasors, NOT algebraically.
+
+Series RL Circuit:
+- Voltage: V_net = √ (V_R² + V_L²)
+- ⭐ Impedance: Z = √ (R² + X_L²) = √ [ R² + (ωL)² ]
+- ⭐ Phase Angle: tan ϕ = V_L / V_R = X_L / R = ωL / R. Voltage leads current by ϕ (0 < ϕ < π/2).
+- At f = 0 (DC): Z = R. At high f: Z ≈ X_L. Impedance triangle base = R, perpendicular = X_L, hypotenuse = Z.
+
+Series RC Circuit:
+- Voltage: V_net = √ (V_R² + V_C²)
+- ⭐ Impedance: Z = √ (R² + X_C²) = √ [ R² + (1/(ωC))² ]
+- ⭐ Phase Angle: tan ϕ = -V_C / V_R = -X_C / R = -1 / (ωCR). Voltage lags current by ϕ (-π/2 < ϕ < 0).
+- At f = 0 (DC): Z → ∞. At high f: Z ≈ R.
+
+Series RLC Circuit:
+- Net Reactive Voltage = |V_L - V_C|. Total Voltage: V_net = √ [ V_R² + (V_L - V_C)² ]
+- ⭐ Impedance: Z = √ [ R² + (X_L - X_C)² ] = √ [ R² + (ωL - 1/(ωC))² ]
+- ⭐ Phase Angle: tan ϕ = (V_L - V_C) / V_R = (X_L - X_C) / R
+- Circuit Behavior:
+  If X_L > X_C (f > f_r): Inductive (V leads I, tan ϕ > 0).
+  If X_C > X_L (f < f_r): Capacitive (I leads V, tan ϕ < 0).
+  If X_L = X_C (f = f_r): Resistive (V and I in phase, tan ϕ = 0).
+- ⚠️ Voltage Magnification Trap: Individual voltages V_L or V_C can be much larger than total source voltage V_net!
+
+5. RESONANCE IN SERIES RLC CIRCUIT
+
+Resonance Conditions:
+- ⭐ Condition: X_L = X_C, V_L = V_C, Net Reactance (X_L - X_C) = 0.
+- Phase difference ϕ = 0 (V and I in same phase).
+- Entire source voltage drops across resistor: V_net = V_R. Combined LC voltmeter reads 0 V.
+- ⭐ Minimum Impedance: Z_min = R (purely resistive).
+- ⭐ Maximum Current: I_max = V / R (or I_rms_max = V_rms / R).
+- ⭐ Resonant Angular Frequency: ω_r = 1 / √ (LC) rad/s.
+- ⭐ Resonant Linear Frequency: f_r = 1 / (2π √ (LC)) Hz.
+- ⭐ Maximum Power: P_max = (I_rms)² R = V_rms² / R.
+
+6. BANDWIDTH, QUALITY FACTOR AND SELECTIVITY
+
+Bandwidth (Δω):
+- Definition: Frequency range where P ≥ P_max / 2 and I ≥ I_max / √2 ≈ 0.707 I_max.
+- ⭐ Angular Bandwidth: Δω = ω₂ - ω₁ = R / L rad/s.
+- Linear Bandwidth: Δf = f₂ - f₁ = R / (2πL) Hz.
+- 📌 Condition: Bandwidth Δω = R / L depends ONLY on R and L, independent of C!
+
+Quality Factor (Q-Factor / Sharpness):
+- Dimensionless measure of resonance peak sharpness.
+- ⭐ Formulas: Q = ω_r / Δω = (ω_r L) / R = 1 / (ω_r C R) = (1/R) √ (L/C)
+- ⭐ Voltage Magnification at Resonance: V_L = Q V_s, V_C = Q V_s.
+
+Selectivity:
+- Ability to isolate target frequency.
+- ⭐ Relation: Selectivity ∝ 1 / Bandwidth ∝ Q ∝ √(L/C) / R.
+- High Selectivity = High Q = Low Bandwidth = Sharp Peak (small R). Used in radio tuning.
+
+7. POWER IN AC CIRCUITS AND POWER FACTOR
+
+Average Power Formulas:
+- ⭐ P_avg = V_rms I_rms cos ϕ = (V₀ I₀ / 2) cos ϕ = I_rms² R.
+- Real Power = V_rms I_rms cos ϕ (Watts, W).
+- Apparent Power = V_rms I_rms (Volt-Amperes, VA).
+
+Power Factor (cos ϕ):
+- ⭐ Formula: cos ϕ = Real Power / Apparent Power = R / Z (0 ≤ cos ϕ ≤ 1).
+- Pure R / Resonance: ϕ = 0°, cos ϕ = 1 ⇒ Maximum power P_avg = V_rms I_rms.
+- Pure L / Pure C: ϕ = 90°, cos ϕ = 0 ⇒ Zero power dissipation (P_avg = 0).
+
+Wattless Current (Idle Current):
+- ⭐ Formula: I_wattless = I_rms sin ϕ (component at 90° to voltage).
+- Power consumed by wattless current = V_rms (I_rms sin ϕ) cos(90°) = 0.
+- Active / Wattful Component = I_rms cos ϕ (in phase with voltage).
+- Causes no power loss in load, but contributes to total current demand requiring thicker transmission wires.
+
+8. CHOKE COIL
+
+- Definition: High-inductance (L), low-resistance (R) coil to limit AC current with minimal power loss.
+- Equivalent Circuit: Series RL with X_L >> R.
+- Operation: High Z = √ (R² + X_L²) limits current I_rms = V_rms / Z. Phase angle ϕ ≈ 90° ⇒ Power factor cos ϕ = R / Z ≈ 0 ⇒ Average power P_avg ≈ 0.
+- Advantage: Controls current wattlessly via magnetic field storage without heat loss (I²R), unlike resistors. Used in fluorescent tubes.
+
+9. MECHANICAL ANALOGY (LCR TO DAMPED SHM)
+
+- Mathematical Isomorphism: L (d²q/dt²) + R (dq/dt) + (1/C) q = 0 ↔ m (d²x/dt²) + b (dx/dt) + k x = 0.
+- ⭐ Equivalences:
+  Charge q ↔ Displacement x
+  Current I = dq/dt ↔ Velocity v = dx/dt
+  Inductance L ↔ Mass m (Inertia)
+  Resistance R ↔ Damping constant b (Friction)
+  Reciprocal Capacitance 1/C ↔ Spring constant k (Stiffness)
+  Magnetic Energy (1/2 L I²) ↔ Kinetic Energy (1/2 m v²)
+  Electric Energy (q² / 2C) ↔ Potential Energy (1/2 k x²)
+- LC Oscillation (R = 0): Undamped SHM, ω = 1 / √ (LC).
+- Damped LCR Oscillation: q = q₀ e^(-Rt/(2L)) sin(ω't + ϕ). Decay envelope = e^(-Rt/(2L)).
+
+10. TRANSFORMERS
+
+- Principle: Mutual Induction between coils on a soft iron core. Converts alternating voltage without altering frequency.
+- 📌 Operational Requirement: AC input ONLY (requires time-varying flux dΦ/dt ≠ 0).
+- ⚠️ DC Input Trap: Battery (DC) input ⇒ dΦ/dt = 0 ⇒ Secondary voltage is strictly ZERO.
+- ⭐ Turn Ratio: V_p / V_s = N_p / N_s (or V_s / V_p = N_s / N_p). ALWAYS valid!
+- ⭐ Ideal Transformer (η = 100%): V_p / V_s = N_p / N_s = I_s / I_p.
+- ⭐ Real Transformer (Efficiency η < 100%): η = (P_out / P_in) × 100% = (V_s I_s / (V_p I_p)) × 100%. V_p / V_s = N_p / N_s holds, but current ratio formula FAILS! Calculate I_s = η (V_p I_p) / V_s.
+- Classifications:
+  Step-Up: N_s > N_p ⇒ V_s > V_p, I_s < I_p.
+  Step-Down: N_s < N_p ⇒ V_s < V_p, I_s > I_p.
+  Frequency UNCHANGED in both!
+- ⭐ Losses and Remedies:
+  1. Copper Loss (I²R): Heat in windings. Remedy: Thick copper wire for high-current winding.
+  2. Flux Leakage: Air gaps between coils. Remedy: Interwound coils on soft iron core.
+  3. Hysteresis Loss: Core magnetization cycles. Remedy: Soft iron core (narrow loop).
+  4. Eddy Current Loss: Induced core currents. Remedy: Laminated soft iron core (thin insulated sheets).
+
+LAST-MINUTE REVISION
+
+- Average vs RMS Purpose: Average measures charge transfer (Q = I_avg Δt); RMS measures heat/work (H = I_rms² R t).
+- Pure Sinusoidal Values: Full Cycle I_avg = 0; Half Cycle I_avg = 2 I₀ / π ≈ 0.637 I₀; Full Cycle I_rms = I₀ / √2 ≈ 0.707 I₀; <sin² θ> = <cos² θ> = 1/2.
+- Meter Ratings: AC meters read RMS values. "220 V, 50 Hz" ⇒ V_rms = 220 V, Peak V₀ = 220 √2 ≈ 311 V.
+- Pure Circuits: Pure R (ϕ = 0, Z = R); Pure L (V leads I by 90°, X_L = 2πfL, blocks high-f AC, DC short circuit); Pure C (I leads V by 90°, X_C = 1/(2πfC), high-f short circuit, blocks DC).
+- Series Combinations: Series RL [Z = √ (R² + X_L²), tan ϕ = X_L / R]; Series RC [Z = √ (R² + X_C²), tan ϕ = X_C / R]; Series RLC [Z = √ [ R² + (X_L - X_C)² ], tan ϕ = (X_L - X_C) / R].
+- Resonance (Series RLC): X_L = X_C, V_L = V_C, Z_min = R, I_max = V / R, ϕ = 0, cos ϕ = 1.0. Frequencies: ω_r = 1 / √ (LC) rad/s; f_r = 1 / (2π √ (LC)) Hz.
+- Bandwidth & Q-Factor: Bandwidth Δω = R / L rad/s (independent of C!). Q-Factor Q = (1/R) √ (L/C) = ω_r / Δω. Voltage magnification: V_L = V_C = Q V_s at resonance.
+- Power: P_avg = V_rms I_rms cos ϕ = I_rms² R. Power factor cos ϕ = R / Z. Wattless current = I_rms sin ϕ.
+- Choke Coil: High L, Low R ⇒ controls current wattlessly (cos ϕ ≈ 0).
+- Mechanical Analogy: L ↔ m, R ↔ b, 1/C ↔ k, q ↔ x, I ↔ v.
+- Transformer Key Formulas: V_p / V_s = N_p / N_s (always valid). Ideal current ratio: I_s / I_p = N_p / N_s (η = 100% ONLY). Efficiency η = (V_s I_s / (V_p I_p)) × 100%. AC input mandatory (DC output = 0). Frequency unchanged.
+
+COMMON TRAPS
+
+1. ⚠️ Pulsating DC vs Pure AC: Pulsating DC varies in magnitude but does not cross zero axis. Pure AC MUST change direction periodically.
+2. ⚠️ Full Cycle Average Fallacy: Full cycle average of pure sinusoidal AC is strictly 0, NOT 2I₀/π.
+3. ⚠️ Meter Reading Trap: AC ammeters/voltmeters read RMS values, NOT peak values.
+4. ⚠️ Adding AC Voltages Algebraically: Direct addition (e.g. 10V + 10V = 20V) in series RLC is WRONG. Use vector addition V_net = √ [ V_R² + (V_L - V_C)² ].
+5. ⚠️ Phase Comparison Error: Comparing phase between sin(ωt) and cos(ωt) directly. Convert cos(ωt) to sin(ωt + π/2) first.
+6. ⚠️ Graph Shift Direction: Leading (+ϕ) shifts wave to the LEFT (earlier time), NOT right.
+7. ⚠️ Square Wave RMS Error: Applying I_rms = I₀ / √2 to square waves is WRONG. For square wave of amplitude I₀, I_rms = I₀.
+8. ⚠️ Real Transformer Current Ratio: Using I_s / I_p = N_p / N_s when efficiency η < 100% fails. Use η = P_out / P_in.
+9. ⚠️ Transformer DC Trap: Connecting primary to battery (DC) gives V_s = 0 V because dΦ/dt = 0.
+10. ⚠️ Voltage Magnification Surprises: V_L or V_C can exceed source voltage V_s near resonance (V_L = V_C = Q V_s).
+11. ⚠️ Bandwidth Dependence: Bandwidth Δω = R / L depends ONLY on R and L, independent of capacitance C.
+
+ULTRA-QUICK SCAN
+
+- DC: Constant mag + dir. AC: Variable mag + dir (crosses zero).
+- I_avg (half cycle) = 2 I₀ / π ≈ 0.637 I₀; I_avg (full cycle) = 0.
+- I_rms = I₀ / √2 ≈ 0.707 I₀.
+- Mixed Signal RMS: I = A + B sin(ωt) ⇒ I_rms = √ (A² + B²/2).
+- Orthogonal Combo RMS: I = i₁ sin(ωt) + i₂ cos(ωt) ⇒ I_rms = √ [ (i₁² + i₂²) / 2 ].
+- Square Wave RMS = I₀.
+- Pure R: ϕ = 0, Z = R.
+- Pure L: V leads I by 90°, X_L = 2πfL (DC short circuit, high-f open circuit).
+- Pure C: I leads V by 90°, X_C = 1/(2πfC) (DC open circuit, high-f short circuit).
+- Series RL: Z = √ (R² + X_L²), tan ϕ = X_L / R.
+- Series RC: Z = √ (R² + X_C²), tan ϕ = X_C / R.
+- Series RLC: Z = √ [ R² + (X_L - X_C)² ], tan ϕ = (X_L - X_C) / R.
+- Resonance: X_L = X_C, Z_min = R, I_max = V / R, ϕ = 0, f_r = 1 / (2π √ (LC)).
+- Bandwidth: Δω = R / L.
+- Quality Factor: Q = (1/R) √ (L/C) = ω_r / Δω. Selectivity ∝ Q.
+- Average Power: P_avg = V_rms I_rms cos ϕ.
+- Power Factor: cos ϕ = R / Z.
+- Wattless Current: I_wattless = I_rms sin ϕ.
+- Choke Coil: High L, Low R, limits current wattlessly (cos ϕ ≈ 0).
+- SHM Analogy: L=m, R=b, 1/C=k, q=x, I=v.
+- Transformer: V_p / V_s = N_p / N_s. Ideal: V_p / V_s = I_s / I_p. Works ONLY on AC (DC output = 0). Frequency unchanged.
+- Transformer Losses: Copper (thick wire), Flux leakage (interwound coils), Hysteresis (soft iron), Eddy current (laminated core).
