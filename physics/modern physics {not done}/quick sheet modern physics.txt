@@ -1,0 +1,172 @@
+COMPLETE REVISION SHEET
+
+1. PHOTOELECTRIC EFFECT AND DUAL NATURE OF RADIATION
+- Photon Energy: E = h·ν = h·c / λ; 💡 E(eV) = 12400 / λ(Å) or 1240 / λ(nm).
+- Work Function ϕ: Minimum energy to eject electron from metal; ϕ = h·ν₀ = h·c / λ₀; 📌 Surface property of specific metal; Units: eV or Joules (1 eV = 1.6 × 10⁻¹⁹ J).
+- Threshold Frequency ν₀ & Cut-off Wavelength λ₀: ν₀ = ϕ / h; λ₀ = h·c / ϕ = c / ν₀. Emission occurs ONLY IF ν ≥ ν₀ (λ ≤ λ₀). If ν < ν₀, current is strictly zero regardless of intensity or exposure time.
+- Einstein's Photoelectric Equation: ⭐ E_incident = ϕ + K_max ⇒ h·ν = h·ν₀ + (1/2)m(v_max)² = ϕ + e·V_s.
+- Stopping Potential V_s: Minimum negative collector potential to reduce photo-current to zero; ⭐ K_max = e·V_s.
+- V_s vs ν Equation: V_s = (h/e)·ν - (ϕ/e); Slope = h/e (universal constant for all metals); X-intercept = ν₀; Y-intercept = -ϕ/e.
+- K_max vs ν Equation: K_max = h·ν - ϕ; Slope = h; X-intercept = ν₀; Y-intercept = -ϕ.
+- Intensity Effects: Light Intensity ∝ photons/sec ∝ emitted photoelectrons/sec ∝ Photo-Current (Saturation Current). Intensity does NOT affect K_max or V_s.
+- Frequency Effects: Frequency ν determines K_max & V_s; higher ν requires more negative V_s. Frequency does NOT affect saturation current (for fixed intensity).
+- Emission Characteristics: Instantaneous process (time lag < 10⁻⁹ s). Emitted photoelectrons possess continuous kinetic energy range: 0 ≤ K ≤ K_max.
+- Photoelectric Efficiency (Quantum Yield): Efficiency = (emitted photoelectrons/sec / absorbed photons/sec) × 100% (typically < 1% due to bulk electron lattice collisions).
+- Photon Emission Rate n_p: n_p = N/t = P / E_p = (P·λ) / (h·c); P = source power.
+- Mixed Incident Frequencies (e.g., E = E₁ cos ω₁t + E₂ cos ω₂t): V_s and K_max are determined EXCLUSIVELY by the highest frequency component ν_max = ω_max / 2π.
+
+2. DE BROGLIE MATTER WAVES
+- De Broglie Hypothesis: Moving particles exhibit wave properties; ⭐ λ = h / p = h / (m·v).
+- Photon Momentum: p = E / c = h / λ.
+- Momentum & Kinetic Energy Form: ⭐ λ = h / √(2mK).
+- Voltage-Accelerated Charged Particle: ⭐ λ = h / √(2m q V).
+- Accelerated Particle Shortcuts (V in Volts, λ in Ångströms):
+  ⭐ Electron: λ_e = 12.27 / √V Å
+  ⭐ Proton: λ_p = 0.286 / √V Å
+  ⭐ Deuteron: λ_d = 0.202 / √V Å
+  ⭐ Alpha Particle: λ_α = 0.101 / √V Å
+- Thermal Gas Particle: K = (3/2)k_B·T ⇒ ⭐ λ_thermal = h / √(3 m k_B T).
+- Magnetic Field Motion (B ⊥ v): Orbital radius r = m·v / (q·B) = p / (q·B) ⇒ ⭐ λ = h / (q·B·r).
+- Orthogonal Inelastic Collision/Fusion: Particles with λ₁, λ₂ fusing at 90° ⇒ ⭐ λ_net = (λ₁·λ₂) / √(λ₁² + λ₂²).
+- Explosion / Decay at Rest: Particle at rest decaying into 2 fragments ⇒ p₁ = p₂ ⇒ ⭐ λ₁ = λ₂ (identical wavelengths regardless of mass ratio).
+- Particle in Electric Field E₀ (v = v₀ î, E = -E₀ î): v(t) = v₀ + (e·E₀/m)t ⇒ λ(t) = λ₀ / [1 + (e·E₀/(m·v₀))t].
+
+3. RADIATION FORCE AND RADIATION PRESSURE
+- Mechanism: Photon momentum p = E / c transferred upon surface impact; Force F = Δp / Δt; Pressure P_rad = F / Area.
+- Normal Incidence (θ = 0°) on Flat Surface (Beam Power P = I·A):
+  - 100% Absorbing (a = 1): F = (I·A) / c = P / c; Pressure P_rad = I / c.
+  - 100% Reflecting (r = 1): F = (2 I·A) / c = 2P / c; Pressure P_rad = 2I / c.
+- Inclined Incidence (Angle θ with Surface Normal, Area A):
+  - 100% Absorbing: F_perp = (I·A·cos²θ) / c; F_parallel = (I·A·sinθ·cosθ) / c; P_rad = (I·cos²θ) / c.
+  - 100% Reflecting: F_perp = (2 I·A·cos²θ) / c; F_parallel = 0; P_rad = (2I·cos²θ) / c.
+- 3D / Curved Objects in Parallel Light Beam (Intensity I):
+  - Cone or Cylinder (Base Radius R, Projected Area A_proj = πR²): Absorbing F = (I·πR²) / c; Reflecting F = (2 I·πR²) / c.
+  - Sphere (Radius R, Projected Area A_proj = πR²):
+    ⭐ 100% Absorbing Sphere: F = (I·πR²) / c.
+    ⭐ 100% Reflecting Sphere: F = (I·πR²) / c (⚠️ Special Exception: surface integration cancels factor of 2; absorbing and reflecting spheres experience identical force!).
+
+4. ATOMIC MODELS AND BOHR THEORY
+- Rutherford Alpha Scattering: Thin gold foil (malleable, high Z = 79). >99.9% pass undeflected; <0.14% deflect >1°; <1 in 8000 deflect >90° or 180°.
+- Distance of Closest Approach r₀ (Head-on collision, b = 0): Initial K_α = Electrostatic PE at r₀ ⇒ ⭐ r₀ = (4 k Z e²) / (m_α v₀²) = (2 k Z e²) / K_α; k = 1 / (4πε₀). Gives upper bound to nuclear radius.
+- Impact Parameter b: Perpendicular distance of initial velocity vector from nucleus axis; ⭐ b = [k Z e² cot(θ/2)] / K_α. b = 0 ⇒ θ = 180°; large b ⇒ small θ. Scattering count N(θ) ∝ 1 / sin⁴(θ/2).
+- Rutherford Drawbacks: Continuous orbital acceleration radiates energy, causing e⁻ to spiral into nucleus in ~10⁻¹⁰ s; fails to explain discrete line spectra.
+- Bohr Model Postulates (Valid strictly for 1-electron species: H, He⁺, Li²⁺, Be³⁺):
+  1. Centripetal Balance: (m·v²) / r = (k Z e²) / r².
+  2. Angular Momentum Quantization: ⭐ L = m·v·r = n·h / (2π), n = 1, 2, 3...
+  3. Energy Transition: ΔE = E₂ - E₁ = h·ν = (h·c) / λ.
+- Derived Bohr Parameters (n-th Orbit):
+  ⭐ Orbit Radius: r_n = [ε₀ n² h²] / [π m Z e²] = 0.529 · (n² / Z) Å.
+  ⭐ Orbital Velocity: v_n = [Z e²] / [2 ε₀ n h] = 2.18 × 10⁶ · (Z / n) m/s.
+  ⭐ Kinetic Energy: K_n = +13.6 · (Z² / n²) eV.
+  ⭐ Potential Energy: U_n = -27.2 · (Z² / n²) eV.
+  ⭐ Total Energy: E_n = -13.6 · (Z² / n²) eV.
+  ⭐ Energy Inter-relations: K_n = -E_n; U_n = 2 E_n; E_n = U_n / 2.
+- Scaling Proportionalities with Quantum Number n & Atomic Number Z:
+  - Radius: r_n ∝ n² / Z
+  - Velocity: v_n ∝ Z / n
+  - Energies: E_n, K_n, U_n ∝ Z² / n²
+  - Time Period: T_n = (2πr_n) / v_n ∝ n³ / Z²
+  - Revolution Frequency: f_n = 1 / T_n ∝ Z² / n³
+  - Orbital Current: I_n = e / T_n ∝ Z² / n³
+  - Magnetic Field at Nucleus: B_n = (μ₀ I_n) / (2r_n) ∝ Z³ / n⁵
+  - Magnetic Dipole Moment: M_n = I_n · A_n = I_n · (π r_n²) ∝ n (⭐ Independent of Z; M₁ = Bohr Magneton μ_B = e·h / (4πm)).
+- Hypothetical Bohr Atom Framework (Modified Potential U(r) = C·rᵏ):
+  1. Force F(r) = -dU/dr. 2. Centripetal balance m·v²/r = F(r). 3. Substitute v = n·h / (2π m r). 4. Solve for r(n). (Example: U = C·r⁴ ⇒ F = 4Cr³ ⇒ m v² = 4Cr⁴ ⇒ r ∝ n^(1/3)).
+- Hydrogen Spectral Series (Z = 1):
+  - Rydberg Formula: ⭐ 1/λ = R · Z² · [ (1 / n₁²) - (1 / n₂²) ]; R ≈ 1.097 × 10⁷ m⁻¹; R·h·c ≈ 13.6 eV.
+  - Series List:
+    1. Lyman: n₁ = 1, n₂ = 2, 3, 4... (UV region)
+    2. Balmer: n₁ = 2, n₂ = 3, 4, 5... (Visible region)
+    3. Paschen: n₁ = 3, n₂ = 4, 5, 6... (IR region)
+    4. Brackett: n₁ = 4, n₂ = 5, 6, 7... (IR region)
+    5. Pfund: n₁ = 5, n₂ = 6, 7, 8... (IR region)
+    6. Humphrey: n₁ = 6, n₂ = 7, 8, 9... (Far IR region)
+  - Extreme Wavelengths: Longest λ_max (minimum energy) occurs for n₂ = n₁ + 1. Shortest λ_min / Series Limit (maximum energy) occurs for n₂ = ∞ ⇒ ⭐ λ_min = n₁² / (R · Z²).
+  - Line Designations: α line (n₂ = n₁ + 1), β line (n₂ = n₁ + 2), γ line (n₂ = n₁ + 3), δ line (n₂ = n₁ + 4).
+  - Total Emitted Lines Count:
+    - Gas sample de-exciting N₂ → N₁: ⭐ N = (N₂ - N₁)(N₂ - N₁ + 1) / 2.
+    - Gas sample de-exciting state n → ground state (n₁ = 1): ⭐ N = n(n - 1) / 2.
+    - ⭐ Single isolated atom in state n: Maximum lines = (n - 1).
+- Recoil of Atom on Emission: Recoil momentum p = E_photon / c; Recoil KE = p² / (2M) = E_photon² / (2Mc²). E_photon = ΔE - K_recoil.
+- Correspondence Principle: For high quantum numbers (n → ∞), photon frequency ν = (E_n - E_{n-1})/h equals classical revolution frequency f_n ∝ Z²/n³.
+
+5. NUCLEAR PHYSICS AND RADIOACTIVITY
+- Representation & Composition: ₈Xᴬ; Z = atomic no. (protons), A = mass no. (nucleons), N = A - Z (neutrons).
+- Nuclear Radius: ⭐ R = R₀ · A^(1/3); R₀ = 1.2 fm = 1.2 × 10⁻¹⁵ m.
+- Nuclear Volume: V = (4/3)πR³ = (4/3)π R₀³ A ⇒ V ∝ A.
+- Universal Nuclear Density: ρ = Mass / Volume = (A · m_nucleon) / [(4/3)π R₀³ A] = (3 m_nucleon) / (4π R₀³) ≈ 2.3 × 10¹⁷ kg/m³. ⭐ Strictly constant for all nuclei, independent of A or Z.
+- Nucleon Masses: m_p = 1.00727 amu = 1.6725 × 10⁻²⁷ kg; m_n = 1.00866 amu = 1.675 × 10⁻²⁷ kg; m_e = 0.00055 amu.
+- Nuclear Force Properties: Strongest fundamental force (~100× EM, ~10³⁸× gravity). Short-range (~1-2 fm); attractive for r > 0.8 fm, strongly repulsive for r < 0.8 fm. Non-inverse-square (F_attr ∝ 1/r⁷, F_rep ∝ 1/r⁹). Charge independent (F_pp = F_nn = F_pn). Spin dependent (parallel > anti-parallel). Non-central, non-conservative. Saturation property (interacts only with nearest neighbors).
+- N/Z Stability Belt: Light nuclei (Z < 20) stable at N/Z ≈ 1.0; Medium (20 < Z < 60) at N/Z ≈ 1.27; Heavy (Z > 60) at N/Z ≈ 1.51 (excess neutrons buffer proton repulsion).
+- Mass Defect Δm: ⭐ Δm = [ Z·m_p + (A - Z)·m_n ] - M_nucleus.
+- Binding Energy (BE): ⭐ BE = Δm · c² = Δm (in amu) × 931.5 MeV.
+- BE per Nucleon (BE / A): True measure of nuclear stability.
+  - Peak Stability: Fe⁵⁶ has highest BE/A ≈ 8.8 MeV/nucleon.
+  - Heavy Nuclei (A > 200): BE/A drops to ~7.6 MeV/nucleon ⇒ undergo Fission.
+  - Light Nuclei (A < 20): Low BE/A, local peaks for even-even nuclei (He⁴ = 7.07 MeV, C¹², O¹⁶) ⇒ undergo Fusion.
+- Q-Value of Nuclear Reaction: ⭐ Q = [ Mass(Reactants) - Mass(Products) ] × 931.5 MeV = Total BE(Products) - Total BE(Reactants).
+  - Exothermic (Q > 0): Mass_reactants > Mass_products; energy released.
+  - Endothermic (Q < 0): Mass_reactants < Mass_products; energy absorbed.
+- Radioactivity & Decay Laws: Spontaneous nuclear disintegration independent of ext T, P, chemical state.
+  - Activity A = -dN/dt = λ·N; Units: 1 Bq = 1 decay/s; 1 Ci = 3.7 × 10¹⁰ Bq; 1 Rd = 10⁶ Bq.
+  - Integrated Decay Law: ⭐ N(t) = N₀ · e^(-λ t); A(t) = A₀ · e^(-λ t); N_decayed(t) = N₀(1 - e^(-λ t)).
+  - Half-Life T_{1/2}: ⭐ T_{1/2} = ln 2 / λ = 0.693 / λ.
+  - Remaining Fraction after n Half-lives (t = n · T_{1/2}): ⭐ N = N₀ / 2ⁿ = N₀ / 2^(t / T_{1/2}).
+  - Mean Life τ: ⭐ τ = 1 / λ = T_{1/2} / ln 2 ≈ 1.44 T_{1/2}.
+- Decay Modes:
+  1. Alpha (α) Decay: X_Z^A → Y_{Z-2}^{A-4} + He₂⁴ + Q. Recoil KE Partition (p_α = p_Y): ⭐ K_α = Q · (A - 4) / A; K_daughter = Q · 4 / A (Alpha carries ~98% of Q).
+  2. Beta-Minus (β⁻) Decay: n → p + e⁻ + ν_bar; X_Z^A → Y_{Z+1}^A + e₋₁⁰ + ν_bar. Z increases by 1, A unchanged. Continuous β spectrum due to 3-body energy sharing with anti-neutrino ν_bar. ΔE = (M_X - M_Y) c².
+  3. Beta-Plus (β⁺) Decay: p → n + e⁺ + ν; X_Z^A → Y_{Z-1}^A + e₊₁⁰ + ν. Z decreases by 1, A unchanged. ΔE = (M_X - M_Y - 2m_e) c².
+  4. Gamma (γ) Decay: Nuclear de-excitation X_Z^{A*} → X_Z^A + γ. Z and A unchanged.
+- Property Comparison: Ionization Power: α > β > γ; Penetration Power: γ > β > α; Field Deflection: α & β deflected in opposite directions, γ undeflected.
+
+LAST-MINUTE REVISION
+
+- E = h·ν = h·c / λ; E(eV) = 12400 / λ(Å) = 1240 / λ(nm); ϕ = h·ν₀ = h·c / λ₀.
+- h·ν = ϕ + K_max = ϕ + e·V_s; K_max = e·V_s; V_s = (h/e)·ν - (ϕ/e); V_s vs ν slope = h/e.
+- λ = h / p = h / (m·v) = h / √(2mK) = h / √(2mqV).
+- Shortcuts: λ_e = 12.27 / √V Å; λ_p = 0.286 / √V Å; λ_d = 0.202 / √V Å; λ_α = 0.101 / √V Å.
+- Thermal Gas: λ = h / √(3 m k_B T); B-Field: λ = h / (q·B·r).
+- Normal Radiation Force: Flat Absorbing F = (I·A)/c; Flat Reflecting F = (2 I·A)/c.
+- Sphere Radiation Force: Absorbing F = (I·πR²)/c; Reflecting F = (I·πR²)/c.
+- Rutherford: r₀ = (4 k Z e²) / (m_α v₀²) = (2 k Z e²) / K_α; N(θ) ∝ 1 / sin⁴(θ/2).
+- Bohr Model (1-e⁻ species): m·v·r = n·h / (2π); r_n = 0.529 (n²/Z) Å; v_n = 2.18 × 10⁶ (Z/n) m/s.
+- Bohr Energies: E_n = -13.6 (Z²/n²) eV; K_n = +13.6 (Z²/n²) eV; U_n = -27.2 (Z²/n²) eV; K_n = -E_n; U_n = 2 E_n.
+- Bohr Scaling: r_n ∝ n²/Z; v_n ∝ Z/n; E_n ∝ Z²/n²; T_n ∝ n³/Z²; f_n ∝ Z²/n³; B_n ∝ Z³/n⁵; M_n ∝ n (independent of Z).
+- Rydberg Formula: 1/λ = R · Z² · [ (1 / n₁²) - (1 / n₂²) ]; λ_min = n₁² / (R · Z²).
+- Spectral Lines Count: Gas sample N = (N₂ - N₁)(N₂ - N₁ + 1) / 2; To ground state N = n(n - 1) / 2; Single atom max = n - 1.
+- Nuclear Radius: R = 1.2 × 10⁻¹⁵ · A^(1/3) m; Volume V ∝ A; Density ρ ≈ 2.3 × 10¹⁷ kg/m³ (universal constant).
+- BE = Δm × 931.5 MeV; Δm = [ Z·m_p + (A - Z)·m_n ] - M_nucleus; Peak BE/A = Fe⁵⁶ (8.8 MeV/nucleon).
+- Q-Value = [ Mass_reactants - Mass_products ] × 931.5 MeV = BE_products - BE_reactants.
+- Decay Law: N(t) = N₀ e^(-λ t) = N₀ / 2ⁿ (n = t / T_{1/2}); T_{1/2} = 0.693 / λ; τ = 1 / λ = 1.44 T_{1/2}; A = λ·N.
+- Alpha Decay Recoil: K_α = Q · (A - 4) / A; K_daughter = Q · 4 / A.
+
+COMMON TRAPS
+
+- ⚠️ Intensity changes saturation current, NOT stopping potential V_s or K_max. Frequency changes V_s & K_max, NOT saturation current.
+- ⚠️ For mixed light frequencies, stopping potential is decided EXCLUSIVELY by the highest frequency component, not the sum or average.
+- ⚠️ Radiation force on a 100% reflecting SPHERE is F = I·πR²/c, NOT 2I·πR²/c (factor of 2 cancels upon curved surface integration).
+- ⚠️ Magnetic dipole moment of Bohr orbit M_n ∝ n is COMPLETELY INDEPENDENT of atomic number Z.
+- ⚠️ In Rutherford scattering, b = 0 corresponds to maximum scattering angle θ = 180° (head-on rebound), not 0°.
+- ⚠️ Bohr model formulas apply ONLY to single-electron species (H, He⁺, Li²⁺, Be³⁺); invalid for multi-electron atoms.
+- ⚠️ For hypothetical Bohr atoms (U ∝ rᵏ), standard proportionalities (r ∝ n², E ∝ 1/n²) fail; must re-derive via F = -dU/dr & m v²/r = F.
+- ⚠️ A single excited atom in level n emits at most (n - 1) photons, whereas a gas sample emits up to n(n - 1)/2 lines.
+- ⚠️ Universal nuclear density ρ ≈ 2.3 × 10¹⁷ kg/m³ is strictly CONSTANT for all nuclei, completely independent of mass number A.
+- ⚠️ In alpha decay, the alpha particle carries ~98% of Q-value, but NOT 100%; daughter nucleus carries recoil energy K_daughter = Q(4/A).
+- ⚠️ Beta minus decay increases atomic number Z by 1 (Z → Z + 1); Beta plus decay decreases Z by 1 (Z → Z - 1); Mass number A remains unchanged.
+- ⚠️ Nuclear force is repulsive at distances r < 0.8 fm and attractive at r > 0.8 fm; does not follow inverse-square law.
+
+ULTRA-QUICK SCAN
+
+- PEE: E = hν = ϕ + K_max; K_max = e V_s; V_s = (h/e)ν - ϕ/e (slope = h/e); I ∝ photo-current; ν determines V_s.
+- Matter Waves: λ = h/p = h/√(2mK) = h/√(2mqV); e⁻ shortcut λ_e = 12.27 / √V Å; thermal λ = h/√(3m k_B T).
+- Radiation Force: Flat absorbing F = IA/c; Flat reflecting F = 2IA/c; Sphere (absorbing or reflecting) F = IπR²/c.
+- Rutherford: Head-on closest approach r₀ = 4kZe² / (m_α v₀²); scattering N(θ) ∝ 1/sin⁴(θ/2).
+- Bohr Orbit: mvr = nh/(2π); r_n = 0.529 (n²/Z) Å; v_n = 2.18×10⁶ (Z/n) m/s; E_n = -13.6 (Z²/n²) eV.
+- Bohr Scaling: r ∝ n²/Z, v ∝ Z/n, E ∝ Z²/n², T ∝ n³/Z², B ∝ Z³/n⁵, M ∝ n (Z-independent).
+- Spectra: 1/λ = R Z² (1/n₁² - 1/n₂²); Lyman (UV, n₁=1), Balmer (Visible, n₁=2), Paschen (IR, n₁=3); Series limit λ_min = n₁² / (R Z²).
+- Spectral Lines: Gas sample N = n(n-1)/2; Single atom max = n - 1.
+- Nuclear Properties: R = 1.2 A^(1/3) fm; Nuclear density ρ ≈ 2.3 × 10¹⁷ kg/m³ = constant for all nuclei.
+- Mass Defect & BE: Δm = [Zm_p + (A-Z)m_n] - M_nucl; BE = Δm × 931.5 MeV; Peak BE/A = Fe⁵⁶ (8.8 MeV).
+- Radioactivity: N(t) = N₀ e^(-λt) = N₀ / 2ⁿ; T_{1/2} = 0.693/λ; τ = 1/λ = 1.44 T_{1/2}; Activity A = λN.
+- Decays: α-decay K_α = Q(A-4)/A; β⁻ (Z+1, e⁻ + ν_bar); β⁺ (Z-1, e⁺ + ν); γ (no change in Z, A); Ionization α > β > γ; Penetration γ > β > α.
